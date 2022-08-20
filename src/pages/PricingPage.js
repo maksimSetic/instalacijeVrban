@@ -12,15 +12,17 @@ const PricingPage = () => {
 
 	const [loading, setLoading] = useState(true);
 
+  useEffect(() => {
+	  setTimeout(() => setLoading(false), 800)
+	}, [])
+
+
   const arrayOfItems = [
   <GiBrainFreeze style={{ height: "50px", width: "50px"}}/>,
   <GiFireplace style={{ height: "50px", width: "50px"}}/>,
   <FaGripfire style={{ height: "50px", width: "50px"}}/>,
  ];
 
-	useEffect(() => {
-	  setTimeout(() => setLoading(false), 800)
-	}, [])
 
 return <>
 	{ loading ? <LoadingScreen style={{ marginTop: "50px"}}

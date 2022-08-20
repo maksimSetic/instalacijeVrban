@@ -15,6 +15,7 @@ export const PricingWrapper = styled.div`
 	align-items: center;
 
 
+
 	@media screen and (max-width: 960px) {
 		margin: 0 30px;
 		display: flex;
@@ -122,13 +123,12 @@ export const PricingCardFeature = styled.li`
 `;
 
 export const PricingIconContainer = styled.div`
-margin-top: 25px;
-
 
 `;
 
 export const PricingIcon = styled.div`
 display: contents;
+
 
 
 `;

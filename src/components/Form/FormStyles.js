@@ -88,6 +88,13 @@ export const FormInput = styled.input`
 	border: none;
 	border-bottom: 1px solid #cfcfcf;
 	font-size: 1rem;
+
+	&:focus{
+		border-color:  #00917e;
+	
+	  }
+
+
 `;
 
 export const FormLabel = styled.label`
@@ -95,6 +102,7 @@ export const FormLabel = styled.label`
 	font-size: 0.9rem;
 	margin-bottom: 0.3rem;
 	color: #afafaf;
+
 `;
 export const FormImgWrapper = styled.div`
 	max-width: 555px;

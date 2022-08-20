@@ -75,7 +75,7 @@ const Form = () => {
 									/>
 								</FormInputRow>
 							))}
-							<h5>Vaša poruka</h5><FormMessageBox/>
+							<h5>Vaša poruka</h5><FormMessageBox placeholder='Unesite svoju poruku...'/>
 
 							<FormButton type="submit">Pošalji</FormButton>
 						</FormWrapper>
