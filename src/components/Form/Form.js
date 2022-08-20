@@ -10,6 +10,7 @@ import {
 	FormMessage,
 	FormButton,
 	FormTitle,
+	FormMessageBox
 } from './FormStyles';
 import { Container } from '../../globalStyles';
 import validateForm from './validateForm';
@@ -17,14 +18,15 @@ import validateForm from './validateForm';
 const Form = () => {
 	const [name, setName] = useState('');
 	const [email, setEmail] = useState('');
-	const [password, setPassword] = useState('');
+	const [message, setMessage] = useState('');
+	const [phone, setPhone] = useState('');
 	const [confirmPass, setConfirmPass] = useState('');
 	const [error, setError] = useState(null);
 	const [success, setSuccess] = useState(null);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		const resultError = validateForm({ name, email, password, confirmPass });
+		const resultError = validateForm({ name, email, confirmPass });
 
 		if (resultError !== null) {
 			setError(resultError);
@@ -32,7 +34,8 @@ const Form = () => {
 		}
 		setName('');
 		setEmail('');
-		setPassword('');
+		setMessage('');
+		setPhone('');
 		setConfirmPass('');
 		setError(null);
 		setSuccess('Application was submitted!');
@@ -47,17 +50,12 @@ const Form = () => {
 		{ label: 'Ime i prezime', value: name, onChange: (e) => setName(e.target.value), type: 'text' },
 		{ label: 'Email', value: email, onChange: (e) => setEmail(e.target.value), type: 'email' },
 		{
-			label: 'Lozinka',
-			value: password,
-			onChange: (e) => setPassword(e.target.value),
-			type: 'password',
+			label: 'Br telefona',
+			value: phone,
+			onChange: (e) => setPhone(e.target.value),
+			type: 'text',
 		},
-		{
-			label: 'Potvrdi lozinku',
-			value: confirmPass,
-			onChange: (e) => setConfirmPass(e.target.value),
-			type: 'password',
-		},
+	
 	];
 	return (
 		<FormSection>
@@ -77,8 +75,9 @@ const Form = () => {
 									/>
 								</FormInputRow>
 							))}
+							<h5>Vaša poruka</h5><FormMessageBox/>
 
-							<FormButton type="submit">Prijava</FormButton>
+							<FormButton type="submit">Pošalji</FormButton>
 						</FormWrapper>
 						{error && (
 							<FormMessage

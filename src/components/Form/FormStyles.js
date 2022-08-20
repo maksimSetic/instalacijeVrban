@@ -132,3 +132,25 @@ export const FormButton = styled.button`
 		background-color:  #00917e;
 	}
 `;
+
+export const FormMessageBox = styled.input`
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;  
+    width: 100%;
+	height: 60px;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+	word-break: break-all;
+  }
+  
+  &:focus{
+    border-color:  #00917e;
+    box-shadow:0 0 8px 0   #00917e;
+  }
+`;

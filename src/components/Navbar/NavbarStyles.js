@@ -99,8 +99,8 @@ export const NavMenu = styled.ul`
 	list-style: none;
 	text-align: center;
 	width: 100%;
-	background-color: rgba(242,242,242,255);
-	box-shadow: 0 0 5px 0 rgba(62,62,62,0.3);
+	background: rgba(242,242,242,255);
+	box-shadow: 0 0 0 0 rgba(62,62,62,0.3);
 	transition: opacity 0.5s ease;
 
 

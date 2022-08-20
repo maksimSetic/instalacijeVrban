@@ -4,7 +4,7 @@ import Pricing2 from '../components/Pricing/Pricing2';
 import Pricing3 from '../components/Pricing/Pricing3';
 import LoadingScreen from "react-loading-screen";
 import Carousel from 'react-material-ui-carousel';
-import { GrHostMaintenance } from 'react-icons/gr';
+import { GiBrainFreeze } from 'react-icons/gi';
 import { FaGripfire } from  'react-icons/fa';
 import { GiFireplace } from 'react-icons/gi';
 
@@ -13,9 +13,9 @@ const PricingPage = () => {
 	const [loading, setLoading] = useState(true);
 
   const arrayOfItems = [
-  <GrHostMaintenance/>,
-  <GiFireplace/>,
-  <FaGripfire/>,
+  <GiBrainFreeze style={{ height: "50px", width: "50px"}}/>,
+  <GiFireplace style={{ height: "50px", width: "50px"}}/>,
+  <FaGripfire style={{ height: "50px", width: "50px"}}/>,
  ];
 
 	useEffect(() => {
@@ -23,7 +23,7 @@ const PricingPage = () => {
 	}, [])
 
 return <>
-	{ loading ? <LoadingScreen
+	{ loading ? <LoadingScreen style={{ marginTop: "50px"}}
         loading={true}
         bgColor="rgba(242,242,242,255)"
         spinnerColor="#00917e"

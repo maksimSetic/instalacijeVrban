@@ -1,14 +1,9 @@
 import React from 'react';
-
-import { BsFillShieldLockFill } from 'react-icons/bs';
-import { IoIosOptions } from 'react-icons/io';
 import { AiOutlineCloudUpload } from 'react-icons/ai';
-import { BiSupport, BiDollar } from 'react-icons/bi';
 import { GrHostMaintenance } from 'react-icons/gr';
 import  { BiBath } from 'react-icons/bi'
 import { FaGripfire } from  'react-icons/fa'
-import { FiAirplay } from 'react-icons/fi'
-import { GiFireplace } from 'react-icons/gi'
+import { GiBrainFreeze, GiFireplace } from 'react-icons/gi'
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
@@ -33,7 +28,7 @@ export const featuresData = [
 	{
 		name: 'Klimatizacija/Ventilacija',
 		description: 'Naš tim je uvijek dostupan zatreba li vam nešto u neprilično vrijeme',
-		icon: iconStyle(FiAirplay),
+		icon: iconStyle(GiBrainFreeze),
 		imgClass: 'four',
 	},
 	{
