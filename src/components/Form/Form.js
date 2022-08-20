@@ -64,7 +64,7 @@ const Form = () => {
 			<Container>
 				<FormRow>
 					<FormColumn small>
-						<FormTitle>Ulogiraj se</FormTitle>
+						<FormTitle>Kontakt</FormTitle>
 						<FormWrapper onSubmit={handleSubmit}>
 							{formData.map((el, index) => (
 								<FormInputRow key={index}>

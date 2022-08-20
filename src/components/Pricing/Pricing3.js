@@ -13,18 +13,17 @@ import {
 	PricingCardFeature,
 	PricingCard,
 	PricingCardImg,
-	PricingIconContainer,
-	PricingIcon
 } from './PricingStyles';
-import { pricingData } from '../../data/PricingData';
+import { pricingData3 } from '../../data/PricingData';
 import "./PricingStyles.scss"
 
-function Pricing() {
+function Pricing3() {
 	return (
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 		<PricingSection id="pricing">
 				<PricingWrapper>
-					<HeadingPricing style={{color: "#00917e"}}>Klimatizacija/Ventilacija</HeadingPricing>	
+				<HeadingPricing style={{color: "#00917e"}}>Bojleri/Spremnici</HeadingPricing>
+
 					<TextWrapper
 						mb="1.4rem"
 						weight="600"
@@ -35,7 +34,7 @@ function Pricing() {
 						
 					</TextWrapper>
 					<PricingContainer>
-						{pricingData.map((card, index) => (
+						{pricingData3.map((card, index) => (
 							 <div id="card-container">
 							 <div id="card2">
 							   <div class="front face">
@@ -60,4 +59,4 @@ function Pricing() {
 		</IconContext.Provider>
 	);
 }
-export default Pricing;
+export default Pricing3;

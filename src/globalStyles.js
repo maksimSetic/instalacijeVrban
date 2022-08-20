@@ -40,6 +40,22 @@ export const Heading = styled.h2`
 	width: ${({ width }) => (width ? width : '100%')};
 	font-family: cholla-sans, sans-serif;
 `;
+
+export const HeadingPricing = styled.h2`
+	font-size: clamp(1.3rem, 13vw, 3.1rem);
+	margin: ${({ margin }) => (margin ? margin : '')};
+	margin-bottom: ${({ mb }) => (mb ? mb : '')};
+	margin-top: ${({ mt }) => (mt ? mt : '')};
+	color: ${({ inverse }) => (inverse ? '$403ae3' : '#fff')};
+	line-height: 1.06;
+	text-align: center;
+	width: ${({ width }) => (width ? width : '100%')};
+	font-family: cholla-sans, sans-serif;
+
+	@media screen and (max-width: 768px) {
+	 font-size: 30px;
+	}
+`;
 export const TextWrapper = styled.span`
 	color: ${({ color }) => (color ? color : '')};
 	font-size: ${({ size }) => (size ? size : '')};
@@ -140,5 +156,23 @@ export const Button = styled.button`
 		color: black;
 	}
 `;
+
+export const CarouselButton = styled.button`
+background-color: blue;
+height: 200px;
+width: 200px;
+border-left-color: #B1B1B1;
+border-right-color: #B1B1B1;
+z-index: 10;
+position: absolute;
+top: -50%;
+padding: 13px;
+box-shadow: inset 2px -2px 0 1px #d1d1d1;
+cursor: pointer;
+-moz-transition: .15s;
+-o-transition: .15s;
+-webkit-transition: .15s;
+transition: .15s;
+`
 
 export default GlobalStyle;

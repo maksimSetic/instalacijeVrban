@@ -14,6 +14,7 @@ import {
 
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
+import Dropdown from '../Dropdown/Dropdown';
 
 export const Content = ({
 	primary,
@@ -41,7 +42,7 @@ export const Content = ({
 	}, [inView, animation]);
 
 	return (
-		<Section inverse={inverse} ref={ref}>
+		<Section inverse={inverse} ref={ref}>	
 			<Container>
 				<ContentRow reverse={reverse}>
 					<ContentColumn>
@@ -80,6 +81,7 @@ export const Content = ({
 							</ContentButton>
 						</TextWrapper>
 					</ContentColumn>
+				
 					<ContentColumn
 						initial={initial}
 						transition={{ delay: 0.5, duration: 0.6 }}

@@ -28,12 +28,12 @@ export const footerSocialData = [
 
 export const footerData = [
 	{
-		title: 'Glavno',
-		links: ['Blog', 'FAQs', 'Support', 'About us'],
+		title: 'Bla',
+		links: ['Bla', 'Bla', 'Bla', 'Bla'],
 	},
 	{
-		title: 'Proizvodi',
-		links: ['Login', 'Personal', 'Business', 'Team'],
+		title: 'Blabla',
+		links: ['Blabla', 'Blabla', 'Blabla', 'Blabla'],
 	},
 
 ];
