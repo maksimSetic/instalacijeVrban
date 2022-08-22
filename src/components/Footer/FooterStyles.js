@@ -146,7 +146,6 @@ export const FooterSocialIcon = styled.a`
 
 export const FooterAddress = styled.div`
 	color: white;
-	margin: 0.4rem auto 0.4rem;
 	max-width: 20rem;
 	font-weight: 500;
 	font-size: 0.875rem;

@@ -26,7 +26,13 @@ return <Section padding="4rem 0 2rem 0">
 				  Instalacije Vrban
 			  </FooterLogo>
 			  <FooterAddress>
-				  Jakuševečka 15, Zagreb
+				  Jakuševečka 15
+			  </FooterAddress>
+			  <FooterAddress>
+				 10020 Zagreb
+			  </FooterAddress>
+			  <FooterAddress>
+				 Hrvatska
 			  </FooterAddress>
 			  <FooterAddress>
 				  Tel: +385916609002

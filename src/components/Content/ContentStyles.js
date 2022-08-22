@@ -15,7 +15,6 @@ export const ContentRow = styled.div`
 `;
 
 export const ContentColumn = styled(motion.div)`
-	margin-bottom: 15px;
 	padding-right: 15px;
 	padding-left: 15px;
 	flex: 1;
@@ -54,7 +53,7 @@ export const TextWrapper = styled.div`
 export const ImgWrapper = styled(motion.div)`
 	display: flex;
 	justify-content: 'flex-end';
-	max-height: 700px;
+	max-height: 50	0px;
 	justify-content: center;
 	position: relative;
 `;
@@ -74,7 +73,7 @@ export const Img = styled(motion.img)`
 	vertical-align: middle;
 	display: inline-block;
 	object-fit: cover;
-	max-height: 700px;
+	max-height: 350px;
 	z-index: 1;
 `;
 

@@ -47,13 +47,7 @@ export const Content = ({
 				<ContentRow reverse={reverse}>
 					<ContentColumn>
 						<TextWrapper>
-							<TopLine
-								initial={initial}
-								transition={{ delay: 0.3, duration: 0.6 }}
-								animate={animation}
-							>
-								{topLine.text}
-							</TopLine>
+						
 							<Heading
 								initial={initial}
 								transition={{ delay: 0.5, duration: 0.6 }}

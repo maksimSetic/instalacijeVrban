@@ -63,10 +63,7 @@ margin-left: 5px;
 	flex-direction: column;
 	transition: opacity 0.5s ease;
 }
-
-
-	
-`
+`;
 
 export const NavIcon = styled.img`
 	margin-right: 1rem;

@@ -14,8 +14,6 @@ export const PricingWrapper = styled.div`
 	flex-direction: column;
 	align-items: center;
 
-
-
 	@media screen and (max-width: 960px) {
 		margin: 0 30px;
 		display: flex;
@@ -128,7 +126,4 @@ export const PricingIconContainer = styled.div`
 
 export const PricingIcon = styled.div`
 display: contents;
-
-
-
 `;

@@ -20,11 +20,11 @@ export const FeatureWrapper = styled.div`
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin-top: 2rem;
-	grid-gap: 2rem;
+	grid-gap: 0.2rem;
 
 	@media screen and (max-width: 1100px) {
 		grid-template-columns: repeat(2, 1fr);
-		grid-row-gap: 3rem;
+		grid-row-gap: 0.2rem;
 	}
 
 	@media screen and (max-width: 568px) {

@@ -24,7 +24,7 @@ function Pricing() {
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 		<PricingSection id="pricing">
 				<PricingWrapper>
-					<HeadingPricing style={{color: "#00917e"}}>Klimatizacija/Ventilacija</HeadingPricing>	
+					<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center"}}>Klimatizacija/Ventilacija</HeadingPricing>	
 					<TextWrapper
 						mb="1.4rem"
 						weight="600"

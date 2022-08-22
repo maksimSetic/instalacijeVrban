@@ -28,11 +28,11 @@ export const footerSocialData = [
 
 export const footerData = [
 	{
-		title: 'Bla',
+		title: 'Uvjeti kupnje',
 		links: ['Bla', 'Bla', 'Bla', 'Bla'],
 	},
 	{
-		title: 'Blabla',
+		title: 'O nama',
 		links: ['Blabla', 'Blabla', 'Blabla', 'Blabla'],
 	},
 

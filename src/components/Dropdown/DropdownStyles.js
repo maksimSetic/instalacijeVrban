@@ -7,7 +7,7 @@ justify-content: center;
 height: 40px;
 background-color: #00917e;
 transition: 0.8s ease;
-margin-bottom: 35px;
+margin-bottom: 50px;
 overflow: hidden;
 
 &:hover{

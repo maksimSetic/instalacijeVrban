@@ -1,12 +1,20 @@
 import React from 'react';
-import { AiOutlineCloudUpload } from 'react-icons/ai';
-import { GrHostMaintenance } from 'react-icons/gr';
 import  { BiBath } from 'react-icons/bi'
 import { FaGripfire } from  'react-icons/fa'
 import { GiBrainFreeze, GiFireplace } from 'react-icons/gi'
+import { MdAttachMoney }  from 'react-icons/md'
+import {  SiCirrusci } from 'react-icons/si'
+
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
+
+	{
+		name: 'Klimatizacija/Ventilacija',
+		description: 'Naš tim je uvijek dostupan zatreba li vam nešto u neprilično vrijeme',
+		icon: iconStyle(GiBrainFreeze),
+		imgClass: 'four',
+	},
 	{
 		name: 'Kotlovi/Peći/Kamini',
 		description: 'Nudimo najvišu razinu sigurnosti i povjerenja u kupoprodaji',
@@ -22,15 +30,10 @@ export const featuresData = [
 	{
 		name: 'Radijatori',
 		description: 'Ukoliko vas muči tehnički ili dizajn problem smo spremni ponuditi svoju pomoć',
-		icon: iconStyle(GrHostMaintenance),
+		icon: iconStyle(SiCirrusci),
 		imgClass: 'three',
 	},
-	{
-		name: 'Klimatizacija/Ventilacija',
-		description: 'Naš tim je uvijek dostupan zatreba li vam nešto u neprilično vrijeme',
-		icon: iconStyle(GiBrainFreeze),
-		imgClass: 'four',
-	},
+
 	{
 		name: 'Oprema za kupaonice',
 		description: 'Nudimo najveći omjer cijene/usluge što nam tržište omogućuje',
@@ -38,10 +41,10 @@ export const featuresData = [
 		imgClass: 'five',
 	},
 	{
-		name: 'Cijenu',
+		name: 'Vrijednost',
 		description:
 			'Također su nam proizvodi svjetski standardizirani što znaći kupujete li iz Kine ćete dobiti istu uslugu ',
-		icon: iconStyle(AiOutlineCloudUpload),
+		icon: iconStyle(MdAttachMoney),
 		imgClass: 'six',
 	},
 ];
