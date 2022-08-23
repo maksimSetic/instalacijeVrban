@@ -7,6 +7,7 @@ import Carousel from 'react-material-ui-carousel';
 import { GiBrainFreeze } from 'react-icons/gi';
 import { FaGripfire } from  'react-icons/fa';
 import { GiFireplace } from 'react-icons/gi';
+import BackToTop from '../components/BackToTop/BackToTop';
 
 const PricingPage = () => {
 
@@ -18,9 +19,9 @@ const PricingPage = () => {
 
 
   const arrayOfItems = [
-  <GiBrainFreeze style={{ height: "50px", width: "50px"}}/>,
-  <GiFireplace style={{ height: "50px", width: "50px"}}/>,
-  <FaGripfire style={{ height: "50px", width: "50px"}}/>,
+  <GiBrainFreeze style={{ height: "40px", width: "40px"}}/>,
+  <GiFireplace style={{ height: "40px", width: "40px"}}/>,
+  <FaGripfire style={{ height: "40px", width: "40px"}}/>,
  ];
 
 
@@ -33,9 +34,16 @@ return <>
         logoSrc=""
         text=""
       >
-      </LoadingScreen> : <Carousel IndicatorIcon={arrayOfItems} autoPlay={false}>
-   <Pricing/><Pricing2/><Pricing3/>
-</Carousel> }
+      </LoadingScreen> : <><Carousel IndicatorIcon={arrayOfItems} autoPlay={false} swipe={false} navButtonsAlwaysInvisible={true} indicatorContainerProps={{
+      style: {
+        position: "absolute",
+        top: "200px",
+        zIndex: "2",
+        marginTop: "20px"
+      }
+    }}>
+      <Pricing /><Pricing2 /><Pricing3 />
+    </Carousel><BackToTop/></>}
 	 ;
 	 </>
 };

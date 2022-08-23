@@ -5,16 +5,11 @@ import {
 	PricingSection,
 	PricingWrapper,
 	PricingContainer,
-	PricingCardInfo,
 	PricingCardPlan,
 	PricingCardCost,
-	PricingCardFeatures,
 	PricingCardText,
 	PricingCardFeature,
-	PricingCard,
 	PricingCardImg,
-	PricingIconContainer,
-	PricingIcon
 } from './PricingStyles';
 import { pricingData } from '../../data/PricingData';
 import "./PricingStyles.scss"
@@ -24,7 +19,7 @@ function Pricing() {
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 		<PricingSection id="pricing">
 				<PricingWrapper>
-					<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center"}}>Klimatizacija/Ventilacija</HeadingPricing>	
+					<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center", marginBottom: "20px"}}>Klimatizacija/Ventilacija</HeadingPricing>	
 					<TextWrapper
 						mb="1.4rem"
 						weight="600"
@@ -41,7 +36,7 @@ function Pricing() {
 							   <div class="front face">
 								 <PricingCardImg src={card.img}/>
 							   </div>
-							   <div class="back face"  style={{backgroundColor: "#00917e"}}>
+							   <div class="back face" style={{backgroundColor: "#00917e"}}>
 								 <PricingCardPlan>{card.title}</PricingCardPlan>
 								 <PricingCardText class="artist">{card.text}</PricingCardText>
 								 <PricingCardFeature>{card.features}</PricingCardFeature>
@@ -49,7 +44,6 @@ function Pricing() {
 								 <Button style={{ marginTop: "30px"}}>Odaberi</Button>
 							   </div>
 							 </div>
-						
 						   </div>
 								
 						

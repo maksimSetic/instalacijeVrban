@@ -37,6 +37,9 @@ return <Section padding="4rem 0 2rem 0">
 			  <FooterAddress>
 				  Tel: +385916609002
 			  </FooterAddress>
+			  <FooterAddress>
+				  Email: dari2@hotmail.com
+			  </FooterAddress>
 
 			  <Row align="center" margin="auto  0 0 0" gap="1rem">
 				  {footerSocialData.map((social, index) => (

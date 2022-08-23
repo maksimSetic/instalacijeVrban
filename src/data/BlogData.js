@@ -29,23 +29,6 @@ cardButton: "",
     cardButton: "",
 
 },
-{
-    cardImg: './assets/security.jpg',
-    cardTitle: "Nauči mikrointerakciju",
-    cardDescription:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis mauris ultricies pretium dictum. Etiam ac sodales neque, at lobortis dui. Praesent posuere ultrices enim nec placerat. Integer non arcu ut mauris fringilla tempor. Duis pulvinar maximus erat, at vulputate purus. Suspendisse in vulputate magna, quis tempor nulla. Duis sit amet magna et velit accumsan facilisis quis quis turpis.",
-    cardTime: "28. Svibnja 2022",
-    cardOptions: "",
-    cardButton: "",
 
-},
-{
-    cardImg: './assets/clients.jpg',
-    cardTitle: "Nauči mikrointerakciju",
-    cardDescription:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis mauris ultricies pretium dictum. Etiam ac sodales neque, at lobortis dui. Praesent posuere ultrices enim nec placerat. Integer non arcu ut mauris fringilla tempor. Duis pulvinar maximus erat, at vulputate purus. Suspendisse in vulputate magna, quis tempor nulla. Duis sit amet magna et velit accumsan facilisis quis quis turpis.",
-    cardTime: "28. Svibnja 2022",
-    cardOptions: "",
-    cardButton: "",
-
-},
 
 ]

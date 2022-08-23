@@ -74,7 +74,6 @@ export const MobileIcon = styled.div`
 	display: none;
 	z-index: 50;
 
-
 	@media screen and (max-width: 960px) {
 		display: block;
 		position: absolute;
@@ -99,9 +98,6 @@ export const NavMenu = styled.ul`
 	background: rgba(242,242,242,255);
 	box-shadow: 0 0 0 0 rgba(62,62,62,0.3);
 	transition: opacity 0.5s ease;
-
-
-
 
 	@media screen and (max-width: 960px) {
 		flex-direction: column;
