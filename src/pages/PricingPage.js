@@ -22,7 +22,7 @@ const PricingPage = () => {
   <GiBrainFreeze style={{ height: "40px", width: "40px"}}/>,
   <GiFireplace style={{ height: "40px", width: "40px"}}/>,
   <FaGripfire style={{ height: "40px", width: "40px"}}/>,
- ];
+ ]; 
 
 
 return <>

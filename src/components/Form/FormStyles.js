@@ -9,6 +9,8 @@ export const FormSection = styled.div`
 `;
 
 export const FormTitle = styled.h1`
+display: flex;
+justify-content: center;
 	margin-bottom: 24px;
 	font-size: 48px;
 	line-height: 1.1;

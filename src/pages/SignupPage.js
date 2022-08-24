@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import Form from '../components/Form/Form';
+import { EmailBackToBack } from '../components/EmailBackToBack/EmailBackToBack';
 import LoadingScreen from "react-loading-screen";
 
 function SignUp() {
@@ -21,7 +21,7 @@ function SignUp() {
         text=""
       >
         {" "}
-      </LoadingScreen> : <Form />}
+      </LoadingScreen> : <EmailBackToBack />}
 	 ;
 	 </>
 	
