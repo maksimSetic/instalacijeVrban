@@ -23,6 +23,8 @@ const Dropdown = () => {
           justifyContent: "center",
           alignItems: "center",
           marginBottom: "10px",
+          fontSize: "40px",
+          color: "#00917e"
         }}
       >
         Izdvajamo iz ponude!

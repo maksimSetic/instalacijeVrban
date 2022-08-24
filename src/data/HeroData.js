@@ -4,11 +4,12 @@ export const heroOne = {
 	topLine: {
 		text: 'Započeto u 2012',
 	},
-	headline: "Izdvajamo iz ponude",
+	headline: "Savjetovanje i suradnja",
 	description: 'Dizajnirali smo i implementirali solucije za vas',
 	buttonLabel: 'Saznaj više',
 	imgStart: 'start',
-	img: './assets/svg/Deal.svg',
+	img: './assets/customerservicing.png',
+	linkTo: '/more',
 	start: 'true',
 };
 

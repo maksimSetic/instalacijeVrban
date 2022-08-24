@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Content } from '../components/Content/Content';
 import Features from '../components/Features/Features';
 import Hero from '../components/Hero/Hero';
-import { heroTwo, heroThree } from '../data/HeroData';
+import { heroOne, heroTwo, heroThree } from '../data/HeroData';
 import Dropdown from '../components/Dropdown/Dropdown';
 import LoadingScreen from "react-loading-screen"
 import Carousel from 'react-material-ui-carousel';
@@ -27,7 +27,7 @@ const Home = () => {
 		  logoSrc=""
 		  text=""
 		>
-		</LoadingScreen> : <><Hero/><Features/><Dropdown/><Blog/><Carousel indicators={false} navButtonsAlwaysInvisible={true} swipe={false}><Content {...heroTwo} /><Content {...heroThree} /></Carousel><BackToTop/></>
+		</LoadingScreen> : <><Hero/><Features/><Dropdown/><Blog/><Carousel stopAutoPlayOnHover={false} indicators={false} navButtonsAlwaysInvisible={true} swipe={false}><Content {...heroOne} /><Content {...heroTwo} /><Content {...heroThree} /></Carousel><BackToTop/></>
  }
 	   ;
 	   </>

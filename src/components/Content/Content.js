@@ -17,7 +17,6 @@ import { Link } from 'react-router-dom';
 
 export const Content = ({
 	primary,
-	topLine,
 	headline,
 	description,
 	buttonLabel,
@@ -55,7 +54,7 @@ export const Content = ({
 							>
 								{headline}
 							</Heading>
-							<Subtitle
+							<Subtitle style={{ fontSize: "20px"}}
 								initial={initial}
 								transition={{ delay: 0.7, duration: 0.6 }}
 								animate={animation}

@@ -131,7 +131,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled.span`
-	color: #fff;
+	color: #00917e;
 	display: flex;
 	align-items: center;
 	justify-content: left;
@@ -140,8 +140,10 @@ export const NavLinks = styled.span`
 	height: 100%;
 
 	&:hover {
-		color: #c8c9d8;
+		color: white;
 		transition: all 0.3s ease;
+		background: linear-gradient(#00917e 75%, rgba(242,242,242,255));
+
 	}
 
 	@media screen and (max-width: 960px) {

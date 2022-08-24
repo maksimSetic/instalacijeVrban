@@ -54,7 +54,7 @@ const Navbar = () => {
 				<NavMenu   show={show}>
 						{data.map((el, index) => (
 							<NavItem key={index}>
-								<NavLinks style={{color: "#00917e"}} onClick={() => closeMobileMenu(el.to, el.id)}>
+								<NavLinks onClick={() => closeMobileMenu(el.to, el.id)}>
 									{el.text}
 								</NavLinks>
 							</NavItem>
