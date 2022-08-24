@@ -19,6 +19,11 @@ export const EmailBackToBack = () => {
       });
   };
 
+  const handlePopup = () => {
+    return(<h1 style={{position: "absolute", fontSize: "50px"}}>Zahtjev uspješno poslan</h1>)
+
+  }
+
   return (
     <FormSection>
         <FormTitle>Kontakt</FormTitle>
@@ -28,10 +33,12 @@ export const EmailBackToBack = () => {
       <label>Ime i prezime</label>
       <input type="text" name="user_name" />
       <label>Br telefona</label>
+      <input type="text" name="user_number" />
+      <label>Email</label>
       <input type="email" name="user_email" />
       <label>Vaša poruka</label>
       <textarea name="message" />
-      <input type="submit" value="Pošalji" style={{ backgroundColor: "#00917e"}}/>
+      <input type="submit" value="Pošalji" onSubmit={handlePopup} style={{ backgroundColor: "#00917e"}}/>
     </form> </StyledContactForm></FormSection>
   );
 };

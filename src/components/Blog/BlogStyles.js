@@ -38,6 +38,16 @@ justify-content: space-between;
 
 export const CardContainer = styled.div`
 flex-direction: row;
+width: 40rem;
+height: auto;
+background: #fff;
+border-radius: 1.5rem;
+padding: 1.5rem;
+overflow: hidden;
+position: relative;
+
+@media screen and (max-width: 768px) {
+flex-direction: row;
 width: 20rem;
 height: auto;
 background: #fff;
@@ -45,6 +55,9 @@ border-radius: 1.5rem;
 padding: 1.5rem;
 overflow: hidden;
 position: relative;
+ 
+    
+	}
 `;
 
 export const CardImageHolder = styled.div`
