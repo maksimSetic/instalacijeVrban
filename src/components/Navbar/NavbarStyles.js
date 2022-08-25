@@ -36,8 +36,11 @@ display: flex;
 	text-decoration: none;
 	font-size: 2rem;
 	align-items: center;
+	font-family: 'Montserrat', sans-serif;
 	z-index: 50;
-	font-family: cholla-sans, sans-serif;
+	@media screen and (max-width: 960px) {
+		font-size: 1.7rem;
+	}
 
 
 `;

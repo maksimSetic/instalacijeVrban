@@ -1,3 +1,4 @@
+
 export const data = [
 	{
 		to: '/',
@@ -13,3 +14,10 @@ export const data = [
 		text: 'Kontakt',
 	},
 ];
+
+
+
+export const logoData = {
+img: "./assets/whiterabbit.png"
+
+}

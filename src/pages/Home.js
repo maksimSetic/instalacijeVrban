@@ -28,9 +28,7 @@ const Home = () => {
 		  text=""
 		>
 		</LoadingScreen> : <><Hero/><Features/><Dropdown/><Blog/><Carousel stopAutoPlayOnHover={false} indicators={false} navButtonsAlwaysInvisible={true} swipe={false}><Content {...heroOne} /><Content {...heroTwo} /><Content {...heroThree} /></Carousel><BackToTop/></>
- }
-	   ;
-	   </>
+ }	   </>
   };
 
 export default Home;
