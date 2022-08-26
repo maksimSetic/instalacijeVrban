@@ -8,7 +8,14 @@ export const StyledContactForm = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center; 
+  padding: 0px 400px 0px 400px;
+ 
 
+
+  @media screen and (max-width: 960px) {
+       left: 0;
+       padding: 0;
+	}
 
     input {
       width: 100%;

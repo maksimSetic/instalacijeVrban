@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./DropdownStyles.js";
 import { DropdownContainer, DropdownIcon } from "./DropdownStyles.js";
 import { Button } from "../../globalStyles";

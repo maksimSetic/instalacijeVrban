@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, MainHeading } from '../../globalStyles';
-import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
+import { HeroVideo, HeroSection, HeroText, ButtonWrapper } from './HeroStyles';
 
 const Hero = () => {
 	return (
@@ -10,7 +10,7 @@ const Hero = () => {
 			<Container>
 				<MainHeading>Sve za kućne instalacije</MainHeading>
 				<HeroText>
-					Cijenimo Vaše povjerenje!
+					Cijenimo Vaše povjerenje
 				</HeroText>
 				<ButtonWrapper>
 					<Link to="signup">

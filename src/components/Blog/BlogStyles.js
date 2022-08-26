@@ -30,10 +30,7 @@ justify-content: space-between;
 	justify-content: center;
 	align-items: center;
  
-    
 	}
-
-    
 `;
 
 export const CardContainer = styled.div`

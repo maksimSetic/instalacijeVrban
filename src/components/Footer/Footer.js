@@ -4,7 +4,6 @@ import {
 	FooterLinkTitle,
 	FooterLink,
 	FooterLogo,
-	SocialIcon,
 	FooterRights,
 	FooterSocialIcon,
 	FooterWrapper,

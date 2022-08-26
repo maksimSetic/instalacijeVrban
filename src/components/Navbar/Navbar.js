@@ -49,7 +49,7 @@ const Navbar = () => {
 		<IconContext.Provider value={{ color: '#fff' }}>
 			<Nav>
 				<NavbarContainer>
-				<img src={logoData.img} style={{ display: "flex", height: "45px", width: "45px", flexShrink: 0.2, marginLeft: "-20px", color: "white"}}  /><NavLogo  to="/">
+				<img src={logoData.img} style={{ display: "flex", height: "45px", width: "45px", flexShrink: 0.2, marginLeft: "-25px", color: "white", marginTop:"15px", marginRight: "5px"}}  /><NavLogo  to="/">
 						Instalacije Vrban
 					</NavLogo>
 				<NavMenu   show={show}>

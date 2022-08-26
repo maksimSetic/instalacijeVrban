@@ -8,9 +8,7 @@ import {
   CardOptions,
   CardTime,
   CardTitle,
-  CardButton,
   CardDescription,
-  CardGrid,
 } from "./BlogStyles";
 import { blogData } from "../../data/BlogData";
 
