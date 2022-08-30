@@ -51,6 +51,35 @@ export const StyledContactForm = styled.div`
       background: rgb(249, 105, 14);
       color: white;
       border: none;
+      
     }
   }
+`;
+
+export const StyledSuccess = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%; 
+height: 500px;
+background-color: rgba(242,242,242,255);
+flex-direction: column;
+@media screen and (max-width: 960px) {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%; 
+height: 500px;
+background-color: rgba(242,242,242,255);
+flex-direction: column;
+}
+
+
+`;
+
+export const StyledSuccessMessage = styled.div`
+display: block;
+margin: 20px;
+color: #00917e;
+
 `;

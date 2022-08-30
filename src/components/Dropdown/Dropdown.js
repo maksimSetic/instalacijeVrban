@@ -13,6 +13,7 @@ import {
 import { pricingData } from "../../data/PricingData";
 import "../Pricing/PricingStyles.scss";
 import { FaArrowCircleDown } from "react-icons/fa";
+import { FcApproval } from "react-icons/fc"
 
 const Dropdown = () => {
   return (
@@ -28,7 +29,7 @@ const Dropdown = () => {
         }}
       >
         Izdvajamo iz ponude!
-      </h2>
+        <FcApproval style={{ marginLeft: "10px", height: "50px", width: "50px"}} /></h2> 
       <DropdownContainer>
         <DropdownIcon>
           <FaArrowCircleDown style={{ color: "white" }} />

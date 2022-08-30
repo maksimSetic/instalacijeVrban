@@ -5,7 +5,7 @@ export const heroOne = {
 		text: 'Započeto u 2012',
 	},
 	headline: "Savjetovanje i suradnja",
-	description: 'Dizajnirali smo i implementirali solucije za vas',
+	description: 'Dizajnirali smo solucije za vas',
 	buttonLabel: 'Saznaj više',
 	imgStart: 'start',
 	img: './assets/customerservicing.png',
@@ -37,7 +37,7 @@ export const heroThree = {
 	},
 	headline:  'U poslu smo već 9 godina',
 	description:
-		'Naših 9 godina iskustva donijelo nam je mogućnosti kvalitetne usluge i metodologije',
+		'9 godina iskustva donijelo nam je mogućnosti kvalitetne usluge i metodologije',
 	buttonLabel: 'Pošaljite nam feedback',
 
 	linkTo: '/download',

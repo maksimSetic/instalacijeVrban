@@ -29,11 +29,11 @@ export const footerSocialData = [
 export const footerData = [
 	{
 		title: 'Uvjeti kupnje',
-		links: ['Bla', 'Bla', 'Bla', 'Bla'],
+		links: ['Gotovina', 'Kreditne kartice', 'Fiskalizacija'],
 	},
 	{
 		title: 'O nama',
-		links: ['Blabla', 'Blabla', 'Blabla', 'Blabla'],
+		links: ['Savjetovanje', 'Servis','Blog' ],
 	},
 
 ];

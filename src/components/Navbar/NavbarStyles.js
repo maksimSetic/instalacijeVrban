@@ -40,10 +40,27 @@ display: flex;
 	z-index: 50;
 	@media screen and (max-width: 960px) {
 		font-size: 1.7rem;
+		margin-right: 15px;
+		margin-left: -10px;
 	}
 
 
 `;
+
+export const NavImg = styled.img `
+display: flex;
+height: 45px;
+ width: 45px; 
+ flex-shrink: 0.2;
+ margin-left: -25px; 
+ color: white; 
+ margin-top: 15px; 
+ margin-right: 5px;
+ transform: scaleX(-1);
+ 
+ `
+ 
+;
 
 export const NavInfoLogo = styled.div`
 display: flex;
@@ -146,6 +163,7 @@ export const NavLinks = styled.span`
 		color: white;
 		transition: all 0.3s ease;
 		background: linear-gradient(#00917e 75%, rgba(242,242,242,255));
+		transition: 0.1s ease-in;
 
 	}
 

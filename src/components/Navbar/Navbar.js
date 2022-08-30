@@ -11,7 +11,8 @@ import {
 	NavMenu,
 	NavLinks,
 	NavItem,
-	NavInfoLogo
+	NavInfoLogo,
+	NavImg
 } from './NavbarStyles.js';
 import { useLocation, useHistory } from 'react-router-dom';
 import { data } from '../../data/NavbarData';
@@ -49,9 +50,9 @@ const Navbar = () => {
 		<IconContext.Provider value={{ color: '#fff' }}>
 			<Nav>
 				<NavbarContainer>
-				<img src={logoData.img} style={{ display: "flex", height: "45px", width: "45px", flexShrink: 0.2, marginLeft: "-25px", color: "white", marginTop:"15px", marginRight: "5px"}}  /><NavLogo  to="/">
+				<NavLogo  to="/">
 						Instalacije Vrban
-					</NavLogo>
+					</NavLogo> <NavImg src={logoData.img} />
 				<NavMenu   show={show}>
 						{data.map((el, index) => (
 							<NavItem key={index}>
