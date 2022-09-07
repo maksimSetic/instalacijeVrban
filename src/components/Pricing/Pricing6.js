@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button,  HeadingPricing, TextWrapper } from '../../globalStyles';
+import { Button, HeadingPricing, TextWrapper } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
 import {
 	PricingSection,
@@ -11,15 +11,15 @@ import {
 	PricingCardFeature,
 	PricingCardImg,
 } from './PricingStyles';
-import { pricingData3 } from '../../data/PricingData';
+import { pricingData6 } from '../../data/PricingData';
 import "./PricingStyles.scss"
 
-function Pricing2() {
+function Pricing6() {
 	return (
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 		<PricingSection id="pricing">
 				<PricingWrapper>
-					<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center", marginBottom: "20px"}}>Kotlovi/Peći/Kamini</HeadingPricing>
+				<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center", marginBottom: "20px"}}>Bakrene cijevi</HeadingPricing>
 
 					<TextWrapper
 						mb="1.4rem"
@@ -30,9 +30,8 @@ function Pricing2() {
 					>
 						
 					</TextWrapper>
-
 					<PricingContainer>
-						{pricingData3.map((card, index) => (
+						{pricingData6.map((card, index) => (
 							 <div id="card-container">
 							 <div id="card2">
 							   <div class="front face">
@@ -57,4 +56,4 @@ function Pricing2() {
 		</IconContext.Provider>
 	);
 }
-export default Pricing2;
+export default Pricing6;

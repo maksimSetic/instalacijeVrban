@@ -6,6 +6,7 @@ export const PricingSection = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	background-color: rgba(242,242,242,255);
+	height: fit-content;
 
 `;
 
@@ -54,15 +55,14 @@ export const PricingCard = styled.div`
 `;
 
 export const PricingCardInfo = styled.div`
-	background: #242424;
+	display: flex;
+	flex-direction: column;
+	background: white;
 	box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
 	width: 280px;
 	text-decoration: none;
 	border-radius: 4px;
 	height: 100%;
-
-	display: flex;
-	flex-direction: column;
 	padding: 24px;
 	color: #fff;
 	margin: auto;
@@ -87,12 +87,13 @@ export const PricingCardInfo = styled.div`
 
 export const PricingCardPlan = styled.h3`
 	margin-bottom: 5px;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	color: #fff;
+	
 `;
 
 export const PricingCardCost = styled.h4`
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	color: #fff;
 `;
 
@@ -108,12 +109,14 @@ export const PricingCardFeatures = styled.ul`
 	display: flex;
 	flex-direction: column;
 	color: #fff;
+	
 `;
 
 export const PricingCardFeature = styled.li`
 	margin-bottom: 1rem;
 	display: flex;
-	font-size: 0.94rem;
+	font-size: 1rem;
+	color: #fff;
 
 	&:before {
 		margin-right: 0.4rem;

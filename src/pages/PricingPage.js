@@ -2,11 +2,17 @@ import React, {useState, useEffect} from 'react';
 import Pricing from '../components/Pricing/Pricing';
 import Pricing2 from '../components/Pricing/Pricing2';
 import Pricing3 from '../components/Pricing/Pricing3';
+import Pricing4 from '../components/Pricing/Pricing4';
+import Pricing5 from '../components/Pricing/Pricing5';
+import Pricing6 from '../components/Pricing/Pricing6';
 import LoadingScreen from "react-loading-screen";
 import Carousel from 'react-material-ui-carousel';
 import { GiBrainFreeze } from 'react-icons/gi';
 import { FaGripfire } from  'react-icons/fa';
 import { GiFireplace } from 'react-icons/gi';
+import { SiCirrusci } from 'react-icons/si';
+import { BiBath } from 'react-icons/bi';
+import { GiPipes } from 'react-icons/gi'; 
 import BackToTop from '../components/BackToTop/BackToTop';
 
 const PricingPage = () => {
@@ -19,9 +25,12 @@ const PricingPage = () => {
 
 
   const arrayOfItems = [
-  <GiBrainFreeze style={{ height: "40px", width: "40px"}}/>,
-  <GiFireplace style={{ height: "40px", width: "40px"}}/>,
-  <FaGripfire style={{ height: "40px", width: "40px"}}/>,
+  <GiBrainFreeze style={{ height: "45px", width: "45px"}}/>,
+  <GiFireplace style={{ height: "45px", width: "45px"}}/>,
+  <FaGripfire style={{ height: "45px", width: "45px"}}/>,
+  <SiCirrusci style={{ height: "35px", width: "35px"}}/>,
+  <BiBath style={{ height: "40px", width: "40px", marginLeft: "5px"}}/>,
+  <GiPipes style={{ height: "40px", width: "40px", marginLeft: "5px"}}/>,
  ]; 
 
 
@@ -42,7 +51,7 @@ return <>
         marginTop: "20px"
       }
     }}>
-      <Pricing /><Pricing2 /><Pricing3 />
+      <Pricing /><Pricing2 /><Pricing3 /><Pricing4 /><Pricing5 /><Pricing6 />
     </Carousel><BackToTop/></>}
 	 ;
 	 </>

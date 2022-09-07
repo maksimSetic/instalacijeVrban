@@ -5,16 +5,13 @@ import {
 	PricingSection,
 	PricingWrapper,
 	PricingContainer,
-	PricingCardInfo,
 	PricingCardPlan,
 	PricingCardCost,
-	PricingCardFeatures,
 	PricingCardText,
 	PricingCardFeature,
-	PricingCard,
 	PricingCardImg,
 } from './PricingStyles';
-import { pricingData3 } from '../../data/PricingData';
+import { pricingData2 } from '../../data/PricingData';
 import "./PricingStyles.scss"
 
 function Pricing3() {
@@ -22,7 +19,7 @@ function Pricing3() {
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 		<PricingSection id="pricing">
 				<PricingWrapper>
-				<HeadingPricing style={{color: "#00917e"}}>Bojleri/Spremnici</HeadingPricing>
+				<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center", marginBottom: "20px"}}>Bojleri/Spremnici</HeadingPricing>
 
 					<TextWrapper
 						mb="1.4rem"
@@ -34,7 +31,7 @@ function Pricing3() {
 						
 					</TextWrapper>
 					<PricingContainer>
-						{pricingData3.map((card, index) => (
+						{pricingData2.map((card, index) => (
 							 <div id="card-container">
 							 <div id="card2">
 							   <div class="front face">

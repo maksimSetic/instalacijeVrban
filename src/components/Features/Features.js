@@ -10,6 +10,7 @@ import {
 	FeatureTextWrapper,
 } from './FeaturesStyles';
 import { featuresData } from '../../data/FeaturesData';
+import {Link} from "react-router-dom"
 
 
 const Features = () => {
@@ -29,7 +30,7 @@ const Features = () => {
 				<FeatureTextWrapper>
 					<FeatureTitle style={{color: "#00917e"}}>Katalog proizvoda</FeatureTitle>
 				</FeatureTextWrapper>
-		
+		<Link to="/pricing" >
 				<FeatureWrapper>
 					{featuresData.map((el, index) => (
 							
@@ -49,7 +50,7 @@ const Features = () => {
 				
 					))}
 				</FeatureWrapper>
-			
+				</Link>
 			</Container>
 		</Section>
 	);

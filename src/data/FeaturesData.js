@@ -4,6 +4,7 @@ import { FaGripfire } from  'react-icons/fa'
 import { GiBrainFreeze, GiFireplace } from 'react-icons/gi'
 import { MdAttachMoney }  from 'react-icons/md'
 import {  SiCirrusci } from 'react-icons/si'
+import {  GiPipes } from 'react-icons/gi'
 
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
@@ -41,10 +42,10 @@ export const featuresData = [
 		imgClass: 'five',
 	},
 	{
-		name: 'Vrijednost',
+		name: 'Bakrene cijevi',
 		description:
-			'Također su nam proizvodi svjetski standardizirani što znaći kupujete li iz Kine ćete dobiti istu uslugu ',
-		icon: iconStyle(MdAttachMoney),
+			'Proizvodi su nam svjetski standardizirani što znači da dobivate vrhunsku kvalitetu',
+		icon: iconStyle(GiPipes),
 		imgClass: 'six',
 	},
 ];

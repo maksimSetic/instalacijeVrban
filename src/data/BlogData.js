@@ -1,5 +1,3 @@
-import Boiler from "./pics/boiler.jpeg"
-
 
 export const blogData = [ {
 cardImg: "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?cs=srgb&dl=pexels-manuel-geissinger-325229.jpg&fm=jpg",

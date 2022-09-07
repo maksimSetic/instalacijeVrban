@@ -3,7 +3,6 @@ import emailjs from '@emailjs/browser';
 import { StyledContactForm, StyledSuccess, StyledSuccessMessage } from './EmailBackToBackStyles';
 import { FormSection, FormTitle } from '../Form/FormStyles';
 import { GrValidate } from 'react-icons/gr'
-import { IconContext } from 'react-icons/lib';
 
 
 export const EmailBackToBack = () => {
