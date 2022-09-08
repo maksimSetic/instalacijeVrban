@@ -1,5 +1,12 @@
 import Klima from "./pics/klima.jpg"
+import Klima2 from "./pics/klima2.jpg"
 import Peć from "./pics/pec.jpg"
+import Peć2 from "./pics/pec2.jpg"
+import Peć3 from "./pics/pec3.jpg"
+import Peć4 from "./pics/pec4.jpg"
+import Peć5 from "./pics/pec5.jpg"
+import Peć6 from "./pics/pec6.jpg"
+import Peć7 from "./pics/pec7.jpg"
 import Boiler from "./pics/ekockp.png"
 import Boiler2 from "./pics/ekockbp.png"
 import RadijatorVal from "./pics/radijator.jpg"
@@ -8,12 +15,18 @@ import RadijatorSol from "./pics/radijatorsol.png"
 import RadijatorOr from "./pics/radijatoror.png"
 import RadijatorTr from "./pics/radijatortrend.jpg"
 import RadijatorAq from "./pics/radijatoraqua.jpg"
+import RadVentil1 from "./pics/ventil1.jpg"
+import RadVentil2 from "./pics/ventil2.jpg"
 import BakreneCijevi from "./pics/bakrenecijevi.jpg"
+import IzoliranaCijev1 from "./pics/cijevizolirana.jpg"
+import IzoliranaCijev2 from "./pics/cijevizolirana2.jpg"
+import IzoliranaCijev3 from "./pics/cijevizolirana3.jpeg"
+
 
 export const pricingData = [
 	{
 		title: 'VAIL 1-045 WNO Vaillant intro VANJSKA JEDINICA (4,6/5,2kW)',
-		img: Klima,
+		img: Klima2,
 		price: '18.99kn',
 		numAcc: '50-100 računa',
 		features: ['Sigurni računi',
@@ -24,7 +37,7 @@ export const pricingData = [
 	{
 		title: 'VAIL 1-045 WNI Vaillant intro UNUTARNJA JEDINICA (4,6/5,2kW)',
 		price: '18.99kn',
-		img: Klima,
+		img: Klima2,
 		numAcc: '50-500 računa',
 		features: [
 			'Sigurni računi',
@@ -32,6 +45,35 @@ export const pricingData = [
 			'Odlično osobnu upotrebu i poduzeća',
 			'Laka Integracija',
 		],
+	},
+
+	{
+		title: 'VAI 1-025 WNO Vaillant intro VANJSKA JEDINICA Zidna (2,5/2,8kW)',
+		price: '18.99kn',
+		img: Klima2,
+		numAcc: '1000+ računa',
+		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+	},
+	{
+		title: 'VAI 1-025 WNI Vaillant intro UNUTARNJA JEDINICA Zidna (2,5/2,8kW)',
+		price: '18.99kn',
+		img: Klima2,
+		numAcc: '1000+ računa',
+		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+	},
+	{
+		title: 'VAI 1-030 WNO Vaillant intro VANJSKA JEDINICA Zidna (3,2/3,4kW)',
+		price: '18.99kn',
+		img: Klima2,
+		numAcc: '1000+ računa',
+		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+	},
+	{
+		title: 'VAI 1-030 WNI Vaillant intro VANJSKA JEDINICA Zidna (3,2/3,4kW)',
+		price: '18.99kn',
+		img: Klima2,
+		numAcc: '1000+ računa',
+		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
 	},
 	{
 		title: 'VAIF 8-050 W2NO Vaillant plus VANJSKA JEDINICA (5,2/5,4kW)',
@@ -116,34 +158,7 @@ export const pricingData = [
 		numAcc: '1000+ računa',
 		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
 	},
-	{
-		title: 'VAI 1-025 WNO Vaillant intro VANJSKA JEDINICA Zidna (2,5/2,8kW)',
-		price: '18.99kn',
-		img: Klima,
-		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
-	},
-	{
-		title: 'VAI 1-025 WNI Vaillant intro UNUTARNJA JEDINICA Zidna (2,5/2,8kW)',
-		price: '18.99kn',
-		img: Klima,
-		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
-	},
-	{
-		title: 'VAI 1-030 WNO Vaillant intro VANJSKA JEDINICA Zidna (3,2/3,4kW)',
-		price: '18.99kn',
-		img: Klima,
-		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
-	},
-	{
-		title: 'VAI 1-030 WNI Vaillant intro VANJSKA JEDINICA Zidna (3,2/3,4kW)',
-		price: '18.99kn',
-		img: Klima,
-		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
-	},
+
 	
 ];
 
@@ -201,31 +216,67 @@ export const pricingData2 = [
 	{
 		title: 'SENKO Štednjak CENTRAL C-20 INOX LUX 2920 Desni 25kW',
 		price: '$55.50',
-		img: Peć,
+		img: Peć2,
 		numAcc: '1000+ računa',
 		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
 	},
 	{
 		title: 'SENKO Štednjak CENTRAL C-25 INOX LUX 2880 Desni 25kW',
 		price: '$55.50',
-		img: Peć,
+		img: Peć2,
 		numAcc: '1000+ računa',
 		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
 	},
 	{
 		title: 'SENKO Štednjak CENTRAL C-30 INOX LUX 2930 Desni 25kW',
 		price: '$55.50',
-		img: Peć,
+		img: Peć2,
 		numAcc: '1000+ računa',
 		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
 	},
 	{
 		title: 'SENKO Štednjak CENTRAL C-35 INOX LUX 2835 Desni 35kW',
 		price: '$55.50',
-		img: Peć,
+		img: Peć2,
 		numAcc: '1000+ računa',
 		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
 	},
+	{
+		title: 'VIH R 120/6 B Vaillant AKUMULACIJSKI SPREMNIK',
+		price: '$55.50',
+		img: Peć3,
+		numAcc: '1000+ računa',
+		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+	},
+	{
+		title: 'Vaillant VRT 15 TERMOSTAT 220V',
+		price: '$55.50',
+		img: Peć6,
+		numAcc: '1000+ računa',
+		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+	},
+	{
+		title: 'Vaillant Ventil Plinski 3/4 Ravni (TERM.OSIGURAČ)',
+		price: '$55.50',
+		img: Peć7,
+		numAcc: '1000+ računa',
+		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+	},
+	{
+		title: 'Vaillant SPOJNI SET SA SIGURNOSNOM GRUPOM I OSJETNIKOM (VU + VIH 120)',
+		price: '$55.50',
+		img: Peć4,
+		numAcc: '1000+ računa',
+		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+	},
+	{
+		title: 'Vaillant DIMOVOD Vodoravni (60/100, KOND.UR)',
+		price: '$55.50',
+		img: Peć5,
+		numAcc: '1000+ računa',
+		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+	},
+
 ];
 
 export const pricingData3 = [
@@ -377,13 +428,6 @@ export const pricingData4 = [
 		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
 	},
 	{
-		title: 'Vaillant RAD 22K (4600W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
 		title: 'Vaillant RAD 22V (1380W)',
 		price: '$55.50',
 		img: RadijatorVal,
@@ -513,6 +557,48 @@ export const pricingData4 = [
 		title: 'Lipovica RAD Plano 700/80 (188W)',
 		price: '$55.50',
 		img: RadijatorLip,
+		numAcc: '1000+ računa',
+		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+	},
+	{
+		title: 'Ventil RAD Herz Ravni GP',
+		price: '$55.50',
+		img: RadVentil1,
+		numAcc: '1000+ računa',
+		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+	},
+	{
+		title: 'Ventil RAD Herz Kutni GP',
+		price: '$55.50',
+		img: RadVentil1,
+		numAcc: '1000+ računa',
+		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+	},
+	{
+		title: 'Ventil RAD TERM Herz Ravni set',
+		price: '$55.50',
+		img: RadVentil1,
+		numAcc: '1000+ računa',
+		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+	},
+	{
+		title: 'Ventil RAD TERM Herz Kutni set',
+		price: '$55.50',
+		img: RadVentil1,
+		numAcc: '1000+ računa',
+		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+	},
+	{
+		title: 'Heimeier Kutni set 1/2 (Termoglava, DX, ventil term 1/2, prigušnica 1/2 kutna) ',
+		price: '$55.50',
+		img: RadVentil2,
+		numAcc: '1000+ računa',
+		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+	},
+	{
+		title: 'Heimeier Kutni set 1/2 (Termoglava, DX, ventil term 1/2, prigušnica 1/2 ravna) ',
+		price: '$55.50',
+		img: RadVentil2,
 		numAcc: '1000+ računa',
 		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
 	},
@@ -697,31 +783,115 @@ export const pricingData5 = [
 
 export const pricingData6 = [
 	{
-		title: 'RAD Aqua 1200x500 (575W) Ravni ',
+		title: 'PEŠ. CIJEV PP 110*1000 SDR 41',
 		img: BakreneCijevi,
 		price: '$7.99',
 		numAcc: '50-100 računa',
 		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
 	}, 
 	{
-		title: 'RAD Aqua 1200x600 (655W) Ravni ',
+		title: 'PEŠ. CIJEV PP 110*2000 SDR 41',
 		img: BakreneCijevi,
 		price: '$7.99',
 		numAcc: '50-100 računa',
 		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
 	}, 	
 	{
-		title: 'RAD Aqua 1600x500 (702W) Ravni ',
+		title: 'PEŠ. CIJEV PP 110*3000 SDR 41',
 		img: BakreneCijevi,
 		price: '$7.99',
 		numAcc: '50-100 računa',
 		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
 	}, 
 	{
-		title: 'RAD Aqua 1600x600 (818W) Ravni ',
+		title: 'PEŠ. CIJEV PP 125*1000 SDR 41',
 		img: BakreneCijevi,
 		price: '$7.99',
 		numAcc: '50-100 računa',
 		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
 	}, 
+	{
+		title: 'PEŠ. CIJEV PP 125*2000 SDR 41',
+		img: BakreneCijevi,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	}, 
+	{
+		title: 'PEŠ. CIJEV PP 125*3000 SDR 41',
+		img: BakreneCijevi,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	}, 
+	{
+		title: 'PEŠ. CIJEV PP 160*1000 SN2 UL.K. SDR 51',
+		img: BakreneCijevi,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	}, 
+	{
+		title: 'PEŠ. CIJEV PP 160*2000 SN2 UL.K. SDR 51',
+		img: BakreneCijevi,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	},
+	{
+		title: 'PEŠ. CIJEV PP 160*3000 SN2 UL.K. SDR 51',
+		img: BakreneCijevi,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	},
+	{
+		title: 'CIJEV ALU-PEX 16*2 COMISA IZOLACIJA (50M KOLUT)',
+		img: IzoliranaCijev1,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	},
+	{
+		title: 'CIJEV ALU-PEX 20*2 COMISA IZOLACIJA (50M KOLUT)',
+		img: IzoliranaCijev1,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	},
+	{
+		title: 'CIJEV ALU-PEX 26*3 COMISA IZOLACIJA (50M KOLUT)',
+		img: IzoliranaCijev1,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	},
+	{
+		title: 'HERZ CIJEV 16*2 PE-RT 5S ZA PODNO GRIJANJE (240m)',
+		img: IzoliranaCijev2,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	},
+	{
+		title: 'HERZ CIJEV 16*2 PE-RT 5S ZA PODNO GRIJANJE (600m)',
+		img: IzoliranaCijev2,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	},
+	{
+		title: 'HERZ RASTER Combitop 30-2 1400x800 h=51mm (PAK=6,72 m2, 6kom)',
+		img: IzoliranaCijev3,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	},
+	{
+		title: 'HERZ RASTER Combitop ND 11 1400x800 h=31mm (PAK=14,56 m2, 13kom)',
+		img: IzoliranaCijev3,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+	},
 ];
