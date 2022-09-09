@@ -14,7 +14,6 @@ html {
 
 .box {
   width: 800px;  
-  margin: 10% auto;
   position: relative;
 
 }
@@ -23,10 +22,11 @@ html {
   position: relative;
   margin: 30px;
   width: 300px;
-  height: 300px;
+  height: 250px;
   z-index: 0;
   float: left;
   perspective: 1000px;
+  margin-bottom: 50px;
   
 }
 
@@ -74,7 +74,6 @@ html {
   display: block;
   transform: rotateY(180deg);
   box-sizing: border-box;
-  padding: 10px;
   text-align: center;
   opacity: .7;
   background: $white;

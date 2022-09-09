@@ -42,7 +42,6 @@ function Pricing4() {
 								 <PricingCardText class="artist">{card.text}</PricingCardText>
 								 <PricingCardFeature>{card.features}</PricingCardFeature>
 								 <PricingCardCost class="date">{card.price}</PricingCardCost>
-								 <Button style={{ marginTop: "30px"}}>Odaberi</Button>
 							   </div>
 							 </div>
 						

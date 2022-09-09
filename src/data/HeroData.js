@@ -19,7 +19,7 @@ export const heroTwo = {
 	topLine: {
 		text: 'Dizajnirano i razvijano',
 	},
-	headline:  'Cijenimo vaše mišljenje',
+	headline:  'Vaše mišljenje nam puno znači',
 	description: 'Naši klijenti imali su super vrijeme surađivajući s nama',
 	buttonLabel: 'Vidi blog',
 

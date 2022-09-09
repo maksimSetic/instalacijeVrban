@@ -7,6 +7,7 @@ import {
 	PricingContainer,
 	PricingCardPlan,
 	PricingCardCost,
+	PricingCardExcerpt,
 	PricingCardText,
 	PricingCardFeature,
 	PricingCardImg,
@@ -37,13 +38,13 @@ function Pricing2() {
 							 <div id="card2">
 							   <div class="front face">
 								 <PricingCardImg src={card.img}/>
+								 <PricingCardExcerpt><PricingCardPlan>{card.title}</PricingCardPlan></PricingCardExcerpt>
 							   </div>
 							   <div class="back face"  style={{backgroundColor: "#00917e"}}>
-								 <PricingCardPlan>{card.title}</PricingCardPlan>
 								 <PricingCardText class="artist">{card.text}</PricingCardText>
 								 <PricingCardFeature>{card.features}</PricingCardFeature>
-								 <PricingCardCost class="date">{card.price}</PricingCardCost>
-								 <Button style={{ marginTop: "30px"}}>Odaberi</Button>
+								 <PricingCardFeature>{card.features2}</PricingCardFeature>
+								 <PricingCardCost>{card.price}</PricingCardCost>
 							   </div>
 							 </div>
 						

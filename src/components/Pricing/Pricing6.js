@@ -1,11 +1,12 @@
 import React from 'react';
-import { Button, HeadingPricing, TextWrapper } from '../../globalStyles';
+import { HeadingPricing, TextWrapper } from '../../globalStyles';
 import { IconContext } from 'react-icons/lib';
 import {
 	PricingSection,
 	PricingWrapper,
 	PricingContainer,
 	PricingCardPlan,
+	PricingCardExcerpt,
 	PricingCardCost,
 	PricingCardText,
 	PricingCardFeature,
@@ -36,13 +37,15 @@ function Pricing6() {
 							 <div id="card2">
 							   <div class="front face">
 								 <PricingCardImg src={card.img}/>
+								 <PricingCardExcerpt><PricingCardPlan>{card.title}</PricingCardPlan></PricingCardExcerpt>
 							   </div>
 							   <div class="back face"  style={{backgroundColor: "#00917e"}}>
-								 <PricingCardPlan>{card.title}</PricingCardPlan>
 								 <PricingCardText class="artist">{card.text}</PricingCardText>
 								 <PricingCardFeature>{card.features}</PricingCardFeature>
+								 <PricingCardFeature>{card.features2}</PricingCardFeature>
+								 <PricingCardFeature>{card.features3}</PricingCardFeature>
+								 <PricingCardFeature>{card.features4}</PricingCardFeature>
 								 <PricingCardCost class="date">{card.price}</PricingCardCost>
-								 <Button style={{ marginTop: "30px"}}>Odaberi</Button>
 							   </div>
 							 </div>
 						

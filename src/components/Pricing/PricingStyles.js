@@ -25,8 +25,18 @@ export const PricingWrapper = styled.div`
 
 export const PricingCardImg = styled.img`
 width: 300px;
-height: 300px;
+height: 250px;
+opacity: 90%;
 `;
+
+export const PricingCardExcerpt = styled.div`
+height: fit-content;
+background-color: white;
+box-shadow: -5px 5px 15px rgba(0,0,0, .3);
+margin-top: -5px;
+`;
+
+
 
 export const PricingContainer = styled.div`
 	display: flex;
@@ -48,6 +58,7 @@ export const PricingContainer = styled.div`
 `;
 
 export const PricingCard = styled.div`
+margin-bottom: 30px;
 	&:hover {
 		transform: scale(1.06);
 		transition: all 0.3s ease-out;
@@ -86,14 +97,17 @@ export const PricingCardInfo = styled.div`
 `;
 
 export const PricingCardPlan = styled.h3`
-	margin-bottom: 5px;
-	font-size: 1.6rem;
-	color: #fff;
+display: flex;
+align-items: center; 
+justify-content: center;
+	font-size: 1.5rem;
+	color: black;
 	
 `;
 
 export const PricingCardCost = styled.h4`
-	font-size: 1.5rem;
+margin-top: 30px;
+	font-size: 1.3rem;
 	color: #fff;
 `;
 
@@ -104,18 +118,13 @@ export const PricingCardText = styled.p`
 `;
 
 export const PricingCardFeatures = styled.ul`
-	margin: 16px 0 32px;
-	list-style: none;
-	display: flex;
-	flex-direction: column;
 	color: #fff;
 	
 `;
 
 export const PricingCardFeature = styled.li`
 	margin-bottom: 1rem;
-	display: flex;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	color: #fff;
 
 	&:before {
