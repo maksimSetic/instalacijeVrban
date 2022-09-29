@@ -26,7 +26,7 @@ import IzoliranaCijev3 from "./pics/cijevizolirana3.jpeg"
 export const pricingData = [
 	{
 		title: 'VAIL 1-025 (2,5/2,8kW)',
-		price: 'Cijena: 3490,99kn',
+		price: 'Cijena: 3490,99kn/463.95€',
 		img: Klima2,
 		numAcc: '1000+ računa',
 		features: [
@@ -36,7 +36,7 @@ export const pricingData = [
 		},
 		{
 			title: 'VAIL 1-030 (3,2/3,4kW)',
-			price: 'Cijena: 3879,99kn',
+			price: 'Cijena: 3879,99kn/515.64€',
 			img: Klima2,
 			numAcc: '1000+ računa',
 			features: [
@@ -47,7 +47,7 @@ export const pricingData = [
 	{
 		title: 'VAIL 1-045 (4,6/5,2kW)',
 		img: Klima2,
-		price: 'Cijena: 5499,99kn',
+		price: 'Cijena: 5499,99kn/730.94€',
 		numAcc: '50-100 računa',
 		features: [
 		'VAIL 1-045 WNO VANJSKA JEDINICA',
@@ -56,7 +56,7 @@ export const pricingData = [
 	},
 		{
 			title: 'VAIL 8-025 (2,6/2,8kW)',
-			price: 'Cijena: 3759,99kn',
+			price: 'Cijena: 3759,99kn/502.35€',
 			img: Klima,
 			numAcc: '1000+ računa',
 			features: [
@@ -66,7 +66,7 @@ export const pricingData = [
 		},
 		{
 			title: 'VAIL 8-035 (3,5/3,67kW)',
-			price: 'Cijena: 4229,99kn',
+			price: 'Cijena: 4229,99kn/562.16€',
 			img: Klima,
 			numAcc: '1000+ računa',
 			features: [
@@ -76,7 +76,7 @@ export const pricingData = [
 		},
 	{
 		title: 'VAIL 8-050 (5,2/5,4kW)',
-		price: 'Cijena: 6549,99kn',
+		price: 'Cijena: 6549,99kn/870.48€',
 		img: Klima,
 		numAcc: '50-1000 računa',
 		features: [
@@ -87,7 +87,7 @@ export const pricingData = [
 
 	{
 		title: 'VAF 8-050 (7,1/8,5kW)',
-		price: 'Cijena: 9359,99kn',
+		price: 'Cijena: 9359,99kn/1241.27€',
 		img: Klima,
 		numAcc: '1000+ računa',
 		features: [
@@ -98,7 +98,7 @@ export const pricingData = [
 	
 	{
 		title: 'VAF 8-070 (7,1/8,5kW)',
-		price: 'Cijena: 10,449kn',
+		price: 'Cijena: 10,449kn/1388.78€',
 		img: Klima,
 		numAcc: '1000+ računa',
 		features: [
@@ -113,7 +113,7 @@ export const pricingData = [
 
 export const pricingData2 = [
 	{
-		title: 'VUW 246/5-3 pro KOMBI "Vaillant"-KOND',
+		title: 'Vaillant bojleri',
 		img: Peć,
 		price: '$7.99',
 		numAcc: '50-100 računa',
@@ -123,46 +123,7 @@ export const pricingData2 = [
 		'Laka Integracija',],
 	},
 	{
-		title: 'VUW 186/5-3 pro KOMBI "Vaillant"-KOND',
-		price: '$18.99',
-		img: Peć,
-		numAcc: '50-500 računa',
-		features: [
-			'Sigurni računi',
-			'Grijanje i hlađenje',
-			'Odlično osobnu upotrebu i poduzeća',
-			'Laka Integracija',
-		],
-	},
-	{
-		title: 'VUW 256/5-5 plus KOMBI "Vaillant"-KOND',
-		price: '$32.50',
-		img: Peć,
-		numAcc: '50-1000 računa',
-		features: [
-			'Grijanje',
-			'Odlično osobnu upotrebu i poduzeća',
-			'Laka Integracija',
-
-		],
-	},
-
-	{
-		title: 'VUW 30/36 CS/1-5 plus KOMBI "Vaillant"-KOND',
-		price: '$55.50',
-		img: Peć,
-		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
-	},
-	{
-		title: 'VUW 25/26 CS/1-5 plus KOMBI "Vaillant"-KOND',
-		price: '$55.50',
-		img: Peć,
-		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
-	},
-	{
-		title: 'VIH R 120/6 B Vaillant AKUMULACIJSKI SPREMNIK',
+		title: 'Vaillant spremnici',
 		price: '$55.50',
 		img: Peć3,
 		numAcc: '1000+ računa',
@@ -183,7 +144,7 @@ export const pricingData2 = [
 		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
 	},
 	{
-		title: 'Vaillant SPOJNI SET SA SIGURNOSNOM GRUPOM I OSJETNIKOM (VU + VIH 120)',
+		title: 'Vaillant SPOJNI SET SA SIGURNOSNOM GRUPOM (VU + VIH 120)',
 		price: '$55.50',
 		img: Peć4,
 		numAcc: '1000+ računa',
@@ -337,234 +298,54 @@ export const pricingData3 = [
 
 export const pricingData4 = [
 	{
-		title: 'Vaillant RAD 22K (1840W)',
+		title: 'Vaillant RAD 22K',
 		img: RadijatorVal,
 		price: '$7.99',
 		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
+		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom.'],
+		features2: ['Ravni GP'],
 	},
 	{
-		title: 'Vaillant RAD 22K (2300W)',
-		price: '$18.99',
-		img: RadijatorVal,
-		numAcc: '50-500 računa',
-		features: [
-			'EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	},
-	{
-		title: 'Vaillant RAD 22K (2760W)',
-		price: '$32.50',
-		img: RadijatorVal,
-		numAcc: '50-1000 računa',
-		features: [
-			'EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'
-
-		],
-	},
-
-	{
-		title: 'Vaillant RAD 22K (3220W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	},
-	{
-		title: 'Vaillant RAD 22K (3680W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	},
-	{
-		title: 'Vaillant RAD 22K (4140W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	},
-	{
-		title: 'Vaillant RAD 22K (4600W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Vaillant RAD 22V (1380W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Vaillant RAD 22V (1840W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Vaillant RAD 22V (2300W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Vaillant RAD 22V (2760W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Vaillant RAD 22V (3220W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Vaillant RAD 22V (3680W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Vaillant RAD 22V (4140W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Vaillant RAD 22V (4600W)',
-		price: '$55.50',
-		img: RadijatorVal,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Lipovica RAD Solar 350 (111W)',
+		title: 'Lipovica RAD Solar',
 		price: '$55.50',
 		img: RadijatorSol,
 		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features: ['EKO-CKB P predviđeni za loženje krutim gorivom.'],
+		features2: ['Ravni GP'],
 	},
 	{
-		title: 'Lipovica RAD Solar 500 (147W)',
-		price: '$55.50',
-		img: RadijatorSol,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Lipovica RAD Solar 600 (168W)',
-		price: '$55.50',
-		img: RadijatorSol,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Lipovica RAD Solar 700 (190W)',
-		price: '$55.50',
-		img: RadijatorSol,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Lipovica RAD Orion 350/95 (113W)',
+		title: 'Lipovica RAD Orion ',
 		price: '$55.50',
 		img: RadijatorOr,
 		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features: ['350/95'],
+		features2: ['Ravni GP'],
 	},
 	{
-		title: 'Lipovica RAD Orion 500/95 (162W)',
-		price: '$55.50',
-		img: RadijatorOr,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Lipovica RAD Orion 600/95 (185W)',
-		price: '$55.50',
-		img: RadijatorOr,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Lipovica RAD Plano 350/80 (109W)',
+		title: 'Lipovica RAD Plano',
 		price: '$55.50',
 		img: RadijatorLip,
 		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features: ['EKO-CKB P predviđeni za loženje krutim gorivom.'],
+		features2: ['350/80'],
 	},
 	{
-		title: 'Lipovica RAD Plano 500/80 (143W)',
-		price: '$55.50',
-		img: RadijatorLip,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Lipovica RAD Plano 600/80 (158W)',
-		price: '$55.50',
-		img: RadijatorLip,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Lipovica RAD Plano 700/80 (188W)',
-		price: '$55.50',
-		img: RadijatorLip,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Ventil RAD Herz Ravni GP',
+		title: 'Ventil RAD TERM Herz',
 		price: '$55.50',
 		img: RadVentil1,
 		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features: ['Ravni set'],
+		features2: ['Ravni GP'],
 	},
 	{
-		title: 'Ventil RAD Herz Kutni GP',
-		price: '$55.50',
-		img: RadVentil1,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Ventil RAD TERM Herz Ravni set',
-		price: '$55.50',
-		img: RadVentil1,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Ventil RAD TERM Herz Kutni set',
-		price: '$55.50',
-		img: RadVentil1,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
-	{
-		title: 'Heimeier Kutni set 1/2 (Termoglava, DX, ventil term 1/2, prigušnica 1/2 kutna) ',
+		title: 'Heimeier Kutni set 1/2',
 		price: '$55.50',
 		img: RadVentil2,
 		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features: ['(Termoglava, DX, ventil term 1/2)'],
+		features2: ['(Prigušnica 1/2 kutna)'],
 	},
-	{
-		title: 'Heimeier Kutni set 1/2 (Termoglava, DX, ventil term 1/2, prigušnica 1/2 ravna) ',
-		price: '$55.50',
-		img: RadVentil2,
-		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom, peletima, uljem ili plinom. Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
-	},
+
 	
 
 ];
@@ -579,41 +360,6 @@ export const pricingData5 = [
 		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
 	}, 
 	{
-		title: 'RAD Aqua 1200x600 (655W) Ravni ',
-		img: RadijatorAq,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 	
-	{
-		title: 'RAD Aqua 1600x500 (702W) Ravni ',
-		img: RadijatorAq,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Aqua 1600x600 (818W) Ravni ',
-		img: RadijatorAq,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Aqua 1800x500 (802W) Ravni ',
-		img: RadijatorAq,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Aqua 1800x600 (917W) Ravni ',
-		img: RadijatorAq,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
 		title: 'RAD Trend KD 1320x450 (752W) Ravni ',
 		img: RadijatorTr,
 		price: '$7.99',
@@ -621,122 +367,7 @@ export const pricingData5 = [
 		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
 	}, 
 	{
-		title: 'RAD Trend KD 1320x600 (1003W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 1320x750 (1253W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 1680x450 (956W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 1320x450 (1277W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 1320x600 (1599W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-
-	{
-		title: 'RAD Trend KD 1320x450 (1090W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 1320x450 (1452W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-
-	{
-		title: 'RAD Trend KD 1320x450 (1812W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 730x450 (450W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 730x600 (604W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-
-	{
-		title: 'RAD Trend KD 730x750 (759W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 960x450 (562W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 960x600 (752W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 960x750 (943W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
 		title: 'RAD Trend KD 1320x600 (1003W) Zaobljeni',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KD 1680x600 (1277W) Zaobljeni ',
-		img: RadijatorTr,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
-	{
-		title: 'RAD Trend KDO 1850x600 (1452W) Zaobljeni ',
 		img: RadijatorTr,
 		price: '$7.99',
 		numAcc: '50-100 računa',

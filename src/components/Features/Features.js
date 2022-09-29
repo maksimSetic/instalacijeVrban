@@ -30,7 +30,7 @@ const Features = () => {
 				<FeatureTextWrapper>
 					<FeatureTitle style={{color: "#00917e"}}>Katalog proizvoda</FeatureTitle>
 				</FeatureTextWrapper>
-		<Link to="/pricing" >
+		<Link style={{ color: "transparent"}} to="/pricing" >
 				<FeatureWrapper>
 					{featuresData.map((el, index) => (
 							

@@ -9,6 +9,7 @@ import {
 	PricingCardCost,
 	PricingCardText,
 	PricingCardFeature,
+	PricingCardExcerpt,
 	PricingCardImg,
 } from './PricingStyles';
 import { pricingData2 } from '../../data/PricingData';
@@ -36,9 +37,9 @@ function Pricing3() {
 							 <div id="card2">
 							   <div class="front face">
 								 <PricingCardImg src={card.img}/>
+								 <PricingCardExcerpt><PricingCardPlan>{card.title}</PricingCardPlan></PricingCardExcerpt>
 							   </div>
 							   <div class="back face"  style={{backgroundColor: "#00917e"}}>
-								 <PricingCardPlan>{card.title}</PricingCardPlan>
 								 <PricingCardText class="artist">{card.text}</PricingCardText>
 								 <PricingCardFeature>{card.features}</PricingCardFeature>
 								 <PricingCardCost class="date">{card.price}</PricingCardCost>

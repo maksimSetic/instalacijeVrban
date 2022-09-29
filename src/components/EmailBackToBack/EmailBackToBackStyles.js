@@ -9,8 +9,6 @@ export const StyledContactForm = styled.div`
   justify-content: center; 
   padding: 0px 400px 0px 400px;
  
-
-
   @media screen and (max-width: 960px) {
        left: 0;
        padding: 0;
@@ -82,3 +80,56 @@ margin: 20px;
 color: #00917e;
 
 `;
+
+export const LocationSection = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%; 
+height: 500px;
+background-color: rgba(242,242,242,255);
+flex-direction: column;
+@media screen and (max-width: 960px) {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%; 
+height: 500px;
+background-color: rgba(242,242,242,255);
+flex-direction: column;
+@media screen and (max-width: 960px) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  height: 500px;
+  background-color: rgba(242,242,242,255);
+  flex-direction: column;
+  @media screen and (max-width: 960px) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: rgba(242,242,242,255);
+  flex-direction: column;
+  }
+  
+  
+}
+
+`;
+
+export const LocationTitle = styled.div`
+display: flex;
+justify-content: center;
+font-size: 48px;
+line-height: 1.1;
+font-weight: 600;
+color:  #00917e;
+
+`;
+
+export const LocationContainer = styled.div`
+
+`;
+
