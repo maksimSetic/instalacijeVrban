@@ -9,8 +9,9 @@ import {
   PricingCardText,
   PricingCardFeature,
   PricingCardImg,
+  PricingCardExcerpt,
 } from "../Pricing/PricingStyles";
-import { pricingData } from "../../data/PricingData";
+import { pricingData7 } from "../../data/PricingData";
 import "../Pricing/PricingStyles.scss";
 import { FaArrowCircleDown } from "react-icons/fa";
 import { FcApproval } from "react-icons/fc"
@@ -35,23 +36,27 @@ const Dropdown = () => {
           <FaArrowCircleDown style={{ color: "white" }} />
         </DropdownIcon>
         <PricingContainer>
-          {pricingData.map((card, index) => (
-            <div id="card-container">
-              <div id="card2">
-                <div class="front face">
-                  <PricingCardImg src={card.img} />
-                </div>
-                <div class="back face" style={{ backgroundColor: "#00917e" }}>
-                  <PricingCardPlan>{card.title}</PricingCardPlan>
-                  <PricingCardText class="artist">{card.text}</PricingCardText>
-                  <PricingCardFeature>{card.features}</PricingCardFeature>
-                  <PricingCardCost class="date">{card.price}</PricingCardCost>
-                  <Button style={{ marginTop: "30px" }}>Odaberi</Button>
-                </div>
-              </div>
-            </div>
-          ))}
-        </PricingContainer>
+						{pricingData7.map((card, index) => (
+							 <div id="card-container">
+							 <div id="card2">
+							   <div class="front face">
+								 <PricingCardImg src={card.img}/>
+								 <PricingCardExcerpt><PricingCardPlan>{card.title}</PricingCardPlan></PricingCardExcerpt>
+							   </div>
+							   <div class="back face"  style={{backgroundColor: "#00917e"}}>
+								 <PricingCardText class="artist">{card.text}</PricingCardText>
+								 <PricingCardFeature>{card.features}</PricingCardFeature>
+								 <PricingCardFeature>{card.features2}</PricingCardFeature>
+								 <PricingCardFeature>{card.features3}</PricingCardFeature>
+								 <PricingCardCost class="date">{card.features4}</PricingCardCost>
+							   </div>
+							 </div>
+						
+						   </div>
+								
+						
+						))}
+					</PricingContainer>
       </DropdownContainer>
     </>
   );

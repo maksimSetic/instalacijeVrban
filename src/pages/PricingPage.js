@@ -13,6 +13,7 @@ import { GiFireplace } from 'react-icons/gi';
 import { SiCirrusci } from 'react-icons/si';
 import { BiBath } from 'react-icons/bi';
 import { GiPipes } from 'react-icons/gi'; 
+import { CgSmartHomeBoiler } from 'react-icons/cg'
 import BackToTop from '../components/BackToTop/BackToTop';
 
 const PricingPage = () => {
@@ -24,12 +25,12 @@ const PricingPage = () => {
 	}, [])
 
 
-  const arrayOfItems = [
+  const arrayOfIcons = [
   <GiBrainFreeze style={{ height: "45px", width: "45px"}}/>,
   <GiFireplace style={{ height: "45px", width: "45px"}}/>,
   <FaGripfire style={{ height: "45px", width: "45px"}}/>,
-  <SiCirrusci style={{ height: "35px", width: "35px"}}/>,
-  <BiBath style={{ height: "40px", width: "40px", marginLeft: "5px"}}/>,
+  <CgSmartHomeBoiler style={{ height: "40px", width: "40px", marginLeft: "-10px"}}/>,
+  <SiCirrusci style={{ height: "35px", width: "35px",  marginLeft: "5px"}}/>,
   <GiPipes style={{ height: "40px", width: "40px", marginLeft: "5px"}}/>,
  ]; 
 
@@ -43,7 +44,7 @@ return <>
         logoSrc=""
         text=""
       >
-      </LoadingScreen> : <><Carousel IndicatorIcon={arrayOfItems} autoPlay={false} swipe={false} navButtonsAlwaysInvisible={true} indicatorContainerProps={{
+      </LoadingScreen> : <><Carousel IndicatorIcon={arrayOfIcons} autoPlay={false} swipe={false} navButtonsAlwaysInvisible={true} indicatorContainerProps={{
       style: {
         position: "absolute",
         top: "200px",

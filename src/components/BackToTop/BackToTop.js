@@ -7,6 +7,25 @@ import { useEffect, useState } from 'react';
 
   const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener('resize', handleWindowResize);
+
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
+
+
+  function getWindowSize() {
+    const {innerWidth, innerHeight} = window;
+    return {innerWidth, innerHeight};
+  }
 
   const toggleVisibility = () => {
     if (window.pageYOffset > 300) {
@@ -31,17 +50,21 @@ import { useEffect, useState } from 'react';
     };
   }, []);
 
-  return (
-    <div  style={{ display: "fixed"}}>
-      <button
-        type='button'
-        className="b2topbtn"
-        onClick={scrollToTop}
-      >
-        <FaChevronUp className="faicon" aria-hidden='true' />
-      </button>
-    </div>
-  );
+  if(isVisible)  {
+    return (
+      <div>
+        <button
+          type='button'
+          className="b2topbtn"
+          onClick={scrollToTop}
+        >
+          <FaChevronUp className="faicon" aria-hidden='true' />
+        </button>
+      </div>
+        );
+  }
+  return(<div></div>)
+
 };
 
 export default BackToTop;

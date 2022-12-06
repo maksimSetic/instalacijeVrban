@@ -41,7 +41,9 @@ function Pricing3() {
 							   </div>
 							   <div class="back face"  style={{backgroundColor: "#00917e"}}>
 								 <PricingCardText class="artist">{card.text}</PricingCardText>
-								 <PricingCardFeature>{card.features}</PricingCardFeature>
+								 <PricingCardFeature>{card.features1}</PricingCardFeature>
+								 <PricingCardFeature>{card.features2}</PricingCardFeature>
+								 <PricingCardFeature>{card.features3}</PricingCardFeature>
 								 <PricingCardCost class="date">{card.price}</PricingCardCost>
 							   </div>
 							 </div>

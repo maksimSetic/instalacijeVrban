@@ -8,14 +8,13 @@ export const FooterContainer = styled.div`
 `;
 
 export const FooterWrapper = styled.div`
-	max-width: 1280px;
-	margin-left: auto;
-	margin-right: auto;
+max-width: 1280px;
+margin-left: auto;
+margin-right: auto;
 `;
 
 export const FooterSubscription = styled.section`
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -26,7 +25,7 @@ export const FooterSubscription = styled.section`
 
 export const FooterSubHeading = styled.p`
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
-		sans-serif;
+	sans-serif;
 	margin-bottom: 24px;
 	font-size: 24px;
 `;
@@ -62,6 +61,9 @@ export const FooterGrid = styled.div`
 `;
 
 export const FooterColumn = styled(Column)`
+display: flex;
+justify-content: center;
+align-items: center;
 	@media screen and (max-width: 999px) {
 		align-items: center;
 		grid-column: 1/-1;

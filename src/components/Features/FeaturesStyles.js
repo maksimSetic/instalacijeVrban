@@ -6,14 +6,13 @@ export const FeatureTitle = styled.h2`
 	font-size: clamp(1.3rem, 13vw, 3.1rem);
 	line-height: 1.06;
 	margin: auto;
+	
 `;
 
 export const FeatureTextWrapper = styled.div`
 	position: relative;
 	padding: 0 0 20px;
 	margin-bottom: 4rem;
-		
-
 `;
 
 export const FeatureWrapper = styled.div`
@@ -62,6 +61,7 @@ export const FeatureImageWrapper = styled.div`
 export const FeatureName = styled.h3`
 	font-weight: 600;
 	font-size: 1.3rem;
+	line-height: 1.73;
 	letter-spacing: 2px;
 
 	@media screen and (max-width: 768px) {
@@ -76,7 +76,6 @@ export const FeatureText = styled.p`
 	font-size: 0.9rem;
 	line-height: 1.73;
 	color: white;
-	font-family: cholla-sans, sans-serif;
 	@media screen and (max-width: 768px) {
 		display: none;
 	}

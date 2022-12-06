@@ -9,6 +9,7 @@ import Peć6 from "./pics/pec6.jpg"
 import Peć7 from "./pics/pec7.jpg"
 import Boiler from "./pics/ekockp.png"
 import Boiler2 from "./pics/ekockbp.png"
+import TesyBoiler from "./pics/tesyboiler.jpg"
 import RadijatorVal from "./pics/radijator.jpg"
 import RadijatorLip from "./pics/radijatorlip.jpg"
 import RadijatorSol from "./pics/radijatorsol.png"
@@ -115,12 +116,10 @@ export const pricingData2 = [
 	{
 		title: 'Vaillant bojleri',
 		img: Peć,
-		price: '$7.99',
 		numAcc: '50-100 računa',
-		features: ['Sigurni računi',
-		'Grijanje i hlađenje',
-		'Odlično osobnu upotrebu i poduzeća',
-		'Laka Integracija',],
+		features1: ['VU 246/5-3 Pro - 9725,00kn/1290,73€'],
+		features2: ['VU 256/5-5 Plus - 9735,00kn/1292,06€'],
+		features3: ['VU 30 CS/1-5 Plus - 12415,00kn/1647,75€'],
 	},
 	{
 		title: 'Vaillant spremnici',
@@ -130,6 +129,24 @@ export const pricingData2 = [
 		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
 	},
 	{
+		title: 'Tesy bojleri',
+		img: TesyBoiler,
+		price: '10% sniženje na gotovinsko plaćanje',
+		numAcc: '50-100 računa',
+		features1: ['50L - 1020,00kn/135,38€'],
+		features2: ['80L - 1330,00kn/176,52€'],
+		features3: ['100L - 1680,00kn/222,98€'],
+	},
+	{
+		title: 'Tesy Kombi bojleri',
+		img: TesyBoiler,
+		numAcc: '50-100 računa',
+		features1: ['80L Lijevi i Desni - 1570,00kn/208,37€'],
+		features2: ['100L Lijevi i Desni  - 1700,00kn/225,63€'],
+		features3: ['120L Lijevi i Desni  - 1930,00kn/256,16€'],
+		
+	},
+	{
 		title: 'Vaillant VRT 15 TERMOSTAT 220V',
 		price: '$55.50',
 		img: Peć6,
@@ -137,25 +154,31 @@ export const pricingData2 = [
 		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
 	},
 	{
-		title: 'Vaillant Ventil Plinski 3/4 Ravni (TERM.OSIGURAČ)',
+		title: 'Vaillant Ventil Plinski',
 		price: '$55.50',
 		img: Peć7,
 		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+		features1: ['3/4'],
+		features2: ['Ravni'],
+		features3: ['TERM.OSIGURAČ'],
 	},
 	{
-		title: 'Vaillant SPOJNI SET SA SIGURNOSNOM GRUPOM (VU + VIH 120)',
+		title: 'Vaillant SPOJNI SET',
 		price: '$55.50',
 		img: Peć4,
 		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+		features1: ['VU + VIH 120'],
+		features2: ['SA SIGURNOSNOM GRUPOM'],
+		
 	},
 	{
-		title: 'Vaillant DIMOVOD Vodoravni (60/100, KOND.UR)',
+		title: 'Vaillant Dimovod',
 		price: '$55.50',
 		img: Peć5,
 		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+		features1: ['60/100'],
+		features2: ['KOND.UR'],
+		features3: ['Jednostavan za implementaciju'],
 	},
 
 ];
@@ -296,38 +319,38 @@ export const pricingData3 = [
 ];
 
 
-export const pricingData4 = [
+export const pricingData5 = [
 	{
-		title: 'Vaillant RAD 22K',
+		title: 'Vaillant Radijatori',
 		img: RadijatorVal,
-		price: '$7.99',
+		price: 'Cijena ovisna o W',
 		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom.'],
-		features2: ['Ravni GP'],
+		features: ['Vaillant RAD 22K (1380W - 4600W)'],
+		features2: ['Vaillant RAD 22V (1380W - 4600W)'],
 	},
 	{
 		title: 'Lipovica RAD Solar',
-		price: '$55.50',
+		price: 'Cijena ovisna o W',
 		img: RadijatorSol,
 		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom.'],
-		features2: ['Ravni GP'],
+		features: ['RAD Solar 350-700 (111W-190W)'],
+		features2: ['Odlična budžet opcija'],
 	},
 	{
 		title: 'Lipovica RAD Orion ',
-		price: '$55.50',
+		price: 'Cijena ovisna o W',
 		img: RadijatorOr,
 		numAcc: '1000+ računa',
-		features: ['350/95'],
-		features2: ['Ravni GP'],
+		features: ['RAD Orion 350/95-600/95 (113W-185W)'],
+		features2: ['Odlična budžet opcija'],
 	},
 	{
 		title: 'Lipovica RAD Plano',
-		price: '$55.50',
+		price: 'Cijena ovisna o W',
 		img: RadijatorLip,
 		numAcc: '1000+ računa',
-		features: ['EKO-CKB P predviđeni za loženje krutim gorivom.'],
-		features2: ['350/80'],
+		features: ['RAD Plano 350/80-700/80 (109W-188W)'],
+		features2: ['Odlična budžet opcija'],
 	},
 	{
 		title: 'Ventil RAD TERM Herz',
@@ -344,38 +367,130 @@ export const pricingData4 = [
 		numAcc: '1000+ računa',
 		features: ['(Termoglava, DX, ventil term 1/2)'],
 		features2: ['(Prigušnica 1/2 kutna)'],
+		
 	},
-
+	{
+		title: 'RAD Aqua',
+		img: RadijatorAq,
+		price: 'Cijena ovisna o W',
+		numAcc: '50-100 računa',
+		features: ['Aqua RAD 575W-917W'],
+		features2: ['Ravni -  1200x500 - 1800x600'],}, 
+	{
+		title: 'RAD Trend',
+		img: RadijatorTr,
+		price: 'Cijena ovisna o W',
+		numAcc: '50-100 računa',
+		features: ['Trend RAD 752W-1812W'],
+		features2: ['Ravni i Zaobljeni -  730x450 - 1850x600'],}, 
 	
 
 ];
 
 
-export const pricingData5 = [
+export const pricingData4 = [
 	{
-		title: 'RAD Aqua 1200x500 (575W) Ravni ',
-		img: RadijatorAq,
-		price: '$7.99',
+		title: 'VUW' + ' ' + '186/5-3 Pro Kombi Vaillant Kond',
+		img: Peć,
 		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
+		features1: ['Vaillant Ventil Plinski 3/4 Ravni'],
+		features2: ['Vaillant Dimovod 60/100 KOND.UR'],
+		features3: ['Vaillant VRT 15 TERMOSTAT 220V'],
+		features4: ['VUW 256/5-5 - 12415,00kn/1647,75€'],
+		price: '9725,00kn/1290,73€',
+	},
 	{
-		title: 'RAD Trend KD 1320x450 (752W) Ravni ',
-		img: RadijatorTr,
-		price: '$7.99',
+		title: 'VUW 246/5-3 Pro Kombi Vaillant Kond',
+		img: Peć,
 		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
+		features1: ['Vaillant Ventil Plinski 3/4 Ravni'],
+		features2: ['Vaillant Dimovod 60/100 KOND.UR'],
+		features3: ['Vaillant VRT 15 TERMOSTAT 220V'],
+		price: '9735,00kn/1292,06€',
+	},
 	{
-		title: 'RAD Trend KD 1320x600 (1003W) Zaobljeni',
-		img: RadijatorTr,
-		price: '$7.99',
+		title: 'VUW 256/5-5 Pro Kombi Vaillant Kond',
+		img: Peć,
 		numAcc: '50-100 računa',
-		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom. Uspješan spoj modernih tehnologija i kvalitetnih gradbenih materijala s jednostavnošću ugradnje i korištenja.'],
-	}, 
+		features1: ['Vaillant Ventil Plinski 3/4 Ravni'],
+		features2: ['Vaillant Dimovod 60/100 KOND.UR'],
+		features3: ['Vaillant VRT 15 TERMOSTAT 220V'],
+		price: '12,415,00kn/1647,75€',
+	},
 ]
 
 export const pricingData6 = [
+	{
+		title: 'CU CIJEVI',
+		img: BakreneCijevi,
+		price: 'Cijena po količini m',
+		numAcc: '50-100 računa',
+		features: ['x15 - 33kn/4,38€', ],
+		features2: ['x18 - 44,50kn/5,91€'],
+		features3: ['x22 - 63,80kn/8,47€'],
+		features4: ['x28 - 81,20kn/10,78€'],
+	  
+	}, 
+	{
+		title: 'CIJEV ALU-PEX 16*2',
+		img: IzoliranaCijev1,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features4: ['5,80kn/0,77€'],
+		features: ['Comisa izolacija'],
+		features2: ['50M kolut'],
+		features3: ['Povećana otpornost na temperature'],},
+	{
+		title: 'CIJEV ALU-PEX 20*2',
+		img: IzoliranaCijev1,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features4: ['5,80kn/0,77€'],
+		features: ['Comisa izolacija'],
+		features2: ['50M kolut'],
+		features3: ['Povećana otpornost na temperature'],},
+	{
+		title: 'CIJEV ALU-PEX 26*3',
+		img: IzoliranaCijev1,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features4: ['5,80kn/0,77€'],
+		features: ['Comisa izolacija'],
+		features2: ['50M kolut'],
+		features3: ['Povećana otpornost na temperature'],},
+	{
+		title: 'HERZ PE-ERT 16*2',
+		img: IzoliranaCijev2,
+		price: 'Cijena po količini m',
+		numAcc: '50-100 računa',
+		features4: ['5,80kn/0,77€'],
+		features: ['Cijevi za podno grijanje'],
+		features2: ['5 slojne'],
+		features3: ['Povećana otpornost na temperature'],
+
+	},
+
+	{
+		title: 'HERZ Combitop 30-2 ',
+		img: IzoliranaCijev3,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features4: ['5,80kn/0,77€'],
+		features3: ['1400x800 h=51mm'],
+		features2: ['(PAK=6,72 m2, 6kom)'],
+		features: ['RASTER'],},
+	{
+		title: 'HERZ Combitop ND 11',
+		img: IzoliranaCijev3,
+		price: '$7.99',
+		numAcc: '50-100 računa',
+		features4: ['5,80kn/0,77€'],
+		features: ['RASTER'],
+		features2: ['1400x800 h=31mm'],
+		features3: ['(PAK=14,56 m2, 13kom)'],},
+];
+
+export const pricingData7 = [
 	{
 		title: 'CU CIJEVI',
 		img: BakreneCijevi,

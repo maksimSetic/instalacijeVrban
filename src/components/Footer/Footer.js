@@ -40,16 +40,6 @@ return <Section padding="4rem 0 2rem 0">
 				  Email: dari2@hotmail.com
 			  </FooterAddress>
 		  </FooterColumn>
-		  {footerData.map((footerItem, index) => (
-			  <FooterLinkItems key={index}>
-				  <FooterLinkTitle>{footerItem.title}</FooterLinkTitle>
-				  {footerItem.links.map((link, linkIndex) => (
-					  <FooterLink key={linkIndex} to="/">
-						  {link}
-					  </FooterLink>
-				  ))}
-			  </FooterLinkItems>
-		  ))}
 	  </FooterGrid>
 	  <FooterRights>Vrban Instalacije © 2022</FooterRights>
   </FooterWrapper>

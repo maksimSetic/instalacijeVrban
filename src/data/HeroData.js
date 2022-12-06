@@ -35,9 +35,9 @@ export const heroThree = {
 	topLine: {
 		text: 'Visoko reputabilan brend',
 	},
-	headline:  'U poslu smo već 9 godina',
+	headline:  'Uslužan obrt',
 	description:
-		'9 godina iskustva donijelo nam je mogućnosti kvalitetne usluge i metodologije',
+		'22 godine iskustva donijele su nam mogućnosti kvalitetne usluge i metodologije',
 	buttonLabel: 'Pošaljite nam feedback',
 
 	linkTo: '/download',

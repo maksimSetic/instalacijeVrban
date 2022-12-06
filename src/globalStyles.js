@@ -50,8 +50,6 @@ export const HeadingPricing = styled.h2`
 	line-height: 1.06;
 	text-align: center;
 	width: ${({ width }) => (width ? width : '100%')};
-	font-family: cholla-sans, sans-serif;
-
 	@media screen and (max-width: 768px) {
 	 font-size: 30px;
 	}
@@ -65,7 +63,7 @@ export const TextWrapper = styled.span`
 	margin: ${({ margin }) => (margin ? margin : '')};
 	margin-bottom: ${({ mb }) => (mb ? mb : '')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
-	font-family: cholla-sans, sans-serif;
+	font-family: cholla-sans, sans-serif; 
 `;
 export const Section = styled.section`
 	padding: ${({ padding }) => (padding ? padding : '140px 0')};
@@ -82,9 +80,9 @@ export const Section = styled.section`
 
 	@media screen and (max-width: 768px) {
 		padding: ${({ smPadding }) => (smPadding ? smPadding : '70px 0')};
+	
 	}
 `;
-
 export const Row = styled.div`
 	display: flex;
 	justify-content: ${({ justify }) => (justify ? justify : '')};
@@ -101,7 +99,7 @@ export const Row = styled.div`
 	min-height: ${({ minHeight }) => (minHeight ? minHeight : 'auto')};
 	flex-wrap: ${({ wrap }) => (wrap ? wrap : '')};
 	font-family: cholla-sans, sans-serif;
-`;
+ `;
 
 export const Column = styled.div`
 	display: flex;

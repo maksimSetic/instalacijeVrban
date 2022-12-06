@@ -20,7 +20,7 @@ function Pricing4() {
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 		<PricingSection id="pricing">
 				<PricingWrapper>
-				<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center", marginBottom: "20px"}}>Radijatori</HeadingPricing>
+				<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center", marginBottom: "20px"}}>Vaillant plinski bojleri</HeadingPricing>
 
 					<TextWrapper
 						mb="1.4rem"
@@ -40,16 +40,14 @@ function Pricing4() {
 								 <PricingCardExcerpt><PricingCardPlan>{card.title}</PricingCardPlan></PricingCardExcerpt>
 							   </div>
 							   <div class="back face"  style={{backgroundColor: "#00917e"}}>
-								 <PricingCardText class="artist">{card.text}</PricingCardText>
-								 <PricingCardFeature>{card.features}</PricingCardFeature>
-								 <PricingCardFeature>{card.features2}</PricingCardFeature>
-								 <PricingCardCost class="date">{card.price}</PricingCardCost>
+							   <PricingCardText class="artist">{card.text}</PricingCardText>
+								<PricingCardFeature>{card.features1}</PricingCardFeature>
+								<PricingCardFeature>{card.features2}</PricingCardFeature>
+								<PricingCardFeature>{card.features3}</PricingCardFeature>
+								<PricingCardCost style={{marginTop: '-5px'}} class="date">{card.price}</PricingCardCost>
 							   </div>
-							 </div>
-						
-						   </div>
-								
-						
+							 </div>						
+						   </div>						
 						))}
 					</PricingContainer>
 				</PricingWrapper>
