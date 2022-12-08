@@ -14,6 +14,11 @@ overflow: hidden;
   transition: 0.7s ease;
 }
 
+&:after{
+  height: 850px;
+  transition: 0.7s ease;
+}
+
 @media screen and (max-width: 768px) {
   display: flex;
   justify-content: center;
@@ -33,5 +38,4 @@ justify-content: center;
 align-items: center; 
 height: 50px;
 width: 50px;
-
 `;

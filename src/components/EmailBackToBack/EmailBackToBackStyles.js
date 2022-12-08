@@ -85,36 +85,22 @@ export const LocationSection = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-width: 100%; 
 height: 500px;
 background-color: rgba(242,242,242,255);
 flex-direction: column;
-@media screen and (max-width: 960px) {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%; 
-height: 500px;
-background-color: rgba(242,242,242,255);
-flex-direction: column;
-@media screen and (max-width: 960px) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; 
-  height: 500px;
-  background-color: rgba(242,242,242,255);
-  flex-direction: column;
+overflow-x: hidden;
+overflow-y: hidden;
+
   @media screen and (max-width: 960px) {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 500px;
   background-color: rgba(242,242,242,255);
   flex-direction: column;
-  }
-  
-  
+  overflow-x: hidden;
+    
 }
 
 `;
@@ -126,10 +112,14 @@ font-size: 48px;
 line-height: 1.1;
 font-weight: 600;
 color:  #00917e;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 
 `;
 
 export const LocationContainer = styled.div`
-
+width: fit-content;
+overflow-x: hidden;
+overflow-y: hidden;
+margin-bottom: 10px;
 `;
 

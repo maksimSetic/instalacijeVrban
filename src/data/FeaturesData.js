@@ -44,7 +44,7 @@ export const featuresData = [
 		imgClass: 'three',
 	},
 	{
-		name: 'Bakrene cijevi',
+		name: 'Podno grijanje',
 		description:
 			'Proizvodi su nam svjetski standardizirani što znači da dobivate vrhunsku kvalitetu',
 		icon: iconStyle(GiPipes),

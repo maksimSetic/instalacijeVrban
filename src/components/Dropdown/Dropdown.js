@@ -26,7 +26,8 @@ const Dropdown = () => {
           alignItems: "center",
           marginBottom: "10px",
           fontSize: "40px",
-          color: "#00917e"
+          color: "#00917e",
+          textShadow: "2px 4px 3px rgba(0,0,0,0.3)"
         }}
       >
         Izdvajamo iz ponude!

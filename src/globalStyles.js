@@ -27,6 +27,7 @@ export const MainHeading = styled.h1`
 	width: 100%;
 	text-align: center;
 	font-family: cholla-sans, sans-serif;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 `;
 
 export const Heading = styled.h2`
@@ -39,6 +40,7 @@ export const Heading = styled.h2`
 	text-align: center;
 	width: ${({ width }) => (width ? width : '100%')};
 	font-family: cholla-sans, sans-serif;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 `;
 
 export const HeadingPricing = styled.h2`
@@ -50,8 +52,9 @@ export const HeadingPricing = styled.h2`
 	line-height: 1.06;
 	text-align: center;
 	width: ${({ width }) => (width ? width : '100%')};
-	@media screen and (max-width: 768px) {
-	 font-size: 30px;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	@media screen and (max-width: 960px) {
+	 font-size: 29px;
 	}
 `;
 export const TextWrapper = styled.span`

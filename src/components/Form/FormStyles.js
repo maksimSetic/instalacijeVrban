@@ -10,10 +10,11 @@ export const FormSection = styled.div`
 export const FormTitle = styled.h1`
 display: flex;
 justify-content: center;
-	margin-bottom: 24px;
-	font-size: 48px;
-	line-height: 1.1;
-	font-weight: 600;
-	color:  #00917e;
+margin-bottom: 24px;
+font-size: 48px;
+line-height: 1.1;
+font-weight: 600;
+color:  #00917e;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 `;
 

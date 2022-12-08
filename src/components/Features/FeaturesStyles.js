@@ -6,6 +6,10 @@ export const FeatureTitle = styled.h2`
 	font-size: clamp(1.3rem, 13vw, 3.1rem);
 	line-height: 1.06;
 	margin: auto;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	@media screen and (max-width: 768px) {
+		margin-bottom: -30px;
+	}
 	
 `;
 
@@ -66,7 +70,7 @@ export const FeatureName = styled.h3`
 
 	@media screen and (max-width: 768px) {
 		font-weight: 400;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		letter-spacing: 1.3px;
 	}
 `;

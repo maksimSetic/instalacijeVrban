@@ -54,7 +54,6 @@ return <>
     }}>
       <Pricing /><Pricing2 /><Pricing3 /><Pricing4 /><Pricing5 /><Pricing6 />
     </Carousel><BackToTop/></>}
-	 ;
 	 </>
 };
 

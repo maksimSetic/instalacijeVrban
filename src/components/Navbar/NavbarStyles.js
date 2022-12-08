@@ -38,6 +38,7 @@ display: flex;
 	align-items: center;
 	font-family: 'Montserrat', sans-serif;
 	z-index: 50;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 	@media screen and (max-width: 960px) {
 		font-size: 1.7rem;
 		margin-right: 15px;
@@ -57,7 +58,20 @@ height: 45px;
  margin-top: 15px; 
  margin-right: 5px;
  transform: scaleX(-1);
- 
+ box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+ border-radius: 10%;
+ @media screen and (max-width: 960px) {
+	display: flex;
+	height: 45px;
+	width: 45px; 
+	flex-shrink: 0.2;
+	margin-left: -25px; 
+	color: white; 
+	margin-top: 15px; 
+	margin-right: 5px;
+	transform: scaleX(-1);
+	box-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
  `
  
 ;

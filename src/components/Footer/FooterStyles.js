@@ -28,6 +28,7 @@ export const FooterSubHeading = styled.p`
 	sans-serif;
 	margin-bottom: 24px;
 	font-size: 24px;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 `;
 
 export const FooterRow = styled(Row)`

@@ -27,7 +27,7 @@ import IzoliranaCijev3 from "./pics/cijevizolirana3.jpeg"
 export const pricingData = [
 	{
 		title: 'VAIL 1-025 (2,5/2,8kW)',
-		price: 'Cijena: 3490,99kn/463.95€',
+		price: '3490,99kn/463.95€',
 		img: Klima2,
 		numAcc: '1000+ računa',
 		features: [
@@ -37,7 +37,7 @@ export const pricingData = [
 		},
 		{
 			title: 'VAIL 1-030 (3,2/3,4kW)',
-			price: 'Cijena: 3879,99kn/515.64€',
+			price: '3879,99kn/515.64€',
 			img: Klima2,
 			numAcc: '1000+ računa',
 			features: [
@@ -48,7 +48,7 @@ export const pricingData = [
 	{
 		title: 'VAIL 1-045 (4,6/5,2kW)',
 		img: Klima2,
-		price: 'Cijena: 5499,99kn/730.94€',
+		price: '5499,99kn/730.94€',
 		numAcc: '50-100 računa',
 		features: [
 		'VAIL 1-045 WNO VANJSKA JEDINICA',
@@ -57,7 +57,7 @@ export const pricingData = [
 	},
 		{
 			title: 'VAIL 8-025 (2,6/2,8kW)',
-			price: 'Cijena: 3759,99kn/502.35€',
+			price: '3759,99kn/502.35€',
 			img: Klima,
 			numAcc: '1000+ računa',
 			features: [
@@ -67,7 +67,7 @@ export const pricingData = [
 		},
 		{
 			title: 'VAIL 8-035 (3,5/3,67kW)',
-			price: 'Cijena: 4229,99kn/562.16€',
+			price: '4229,99kn/562.16€',
 			img: Klima,
 			numAcc: '1000+ računa',
 			features: [
@@ -77,7 +77,7 @@ export const pricingData = [
 		},
 	{
 		title: 'VAIL 8-050 (5,2/5,4kW)',
-		price: 'Cijena: 6549,99kn/870.48€',
+		price: '6549,99kn/870.48€',
 		img: Klima,
 		numAcc: '50-1000 računa',
 		features: [
@@ -88,7 +88,7 @@ export const pricingData = [
 
 	{
 		title: 'VAF 8-050 (7,1/8,5kW)',
-		price: 'Cijena: 9359,99kn/1241.27€',
+		price: '9359,99kn/1241.27€',
 		img: Klima,
 		numAcc: '1000+ računa',
 		features: [
@@ -99,7 +99,7 @@ export const pricingData = [
 	
 	{
 		title: 'VAF 8-070 (7,1/8,5kW)',
-		price: 'Cijena: 10,449kn/1388.78€',
+		price: '10,449kn/1388.78€',
 		img: Klima,
 		numAcc: '1000+ računa',
 		features: [
@@ -123,10 +123,12 @@ export const pricingData2 = [
 	},
 	{
 		title: 'Vaillant spremnici',
-		price: '$55.50',
+		price: '10% sniženje na gotovinsko plaćanje',
 		img: Peć3,
 		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+		features1: ['50L - 1020,00kn/135,38€'],
+		features2: ['80L - 1330,00kn/176,52€'],
+		features3: ['100L - 1680,00kn/222,98€'],
 	},
 	{
 		title: 'Tesy bojleri',
@@ -147,15 +149,17 @@ export const pricingData2 = [
 		
 	},
 	{
-		title: 'Vaillant VRT 15 TERMOSTAT 220V',
-		price: '$55.50',
+		title: 'Vaillant Termostat',
+		price: '100kn/13€',
 		img: Peć6,
 		numAcc: '1000+ računa',
-		features: ['Dijagnoza', 'Popravak', 'Održavanje'],
+		features1: ['VRT 15'],
+		features2: ['220V'],
+		features3: ['Kompletno modularan!'],
 	},
 	{
 		title: 'Vaillant Ventil Plinski',
-		price: '$55.50',
+		price: '100kn/13€',
 		img: Peć7,
 		numAcc: '1000+ računa',
 		features1: ['3/4'],
@@ -164,16 +168,17 @@ export const pricingData2 = [
 	},
 	{
 		title: 'Vaillant SPOJNI SET',
-		price: '$55.50',
+		price: '100kn/13€',
 		img: Peć4,
 		numAcc: '1000+ računa',
 		features1: ['VU + VIH 120'],
 		features2: ['SA SIGURNOSNOM GRUPOM'],
+		features3: ['Jednostavan za implementaciju'],
 		
 	},
 	{
 		title: 'Vaillant Dimovod',
-		price: '$55.50',
+		price: '100kn/13€',
 		img: Peć5,
 		numAcc: '1000+ računa',
 		features1: ['60/100'],
@@ -187,98 +192,110 @@ export const pricingData3 = [
 	{
 		title: 'EKO-CK P 20kW',
 		img: Boiler,
-		price: 'Cijena: 7600kn/1008,69€ ',
+		price: '7600kn/1008,69€ ',
 		numAcc: '50-100 računa',
 		features: [
 			'EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom.',
 		],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	 
 	},
 	{
 		title: 'EKO-CK P 25kW',
-		price: 'Cijena: 8100kn/1075,05€ ',
+		price: '8100kn/1075,05€ ',
 		img: Boiler,
 		numAcc: '50-500 računa',
 		features: [
 			'EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'EKO-CK P 30kW',
-		price: 'Cijena: 8600kn/1141,42€',
+		price: '8600kn/1141,42€',
 		img: Boiler,
 		numAcc: '50-1000 računa',
 		features: [
 			'EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom.'
 
 		],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 
 	{
 		title: 'EKO-CK P 35kW',
-		price: 'Cijena: 9300kn/1234,32€',
+		price: '9300kn/1234,32€',
 		img: Boiler,
 		numAcc: '1000+ računa',
 		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'EKO-CK P 40kW',
-		price: 'Cijena: 9800kn/1300,68€',
+		price: '9800kn/1300,68€',
 		img: Boiler,
 		numAcc: '1000+ računa',
 		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'EKO-CK P 50kW',
-		price: 'Cijena: 10750kn/1426,77€',
+		price: '10750kn/1426,77€',
 		img: Boiler,
 		numAcc: '1000+ računa',
 		features: ['EKO-CK P predviđeni su za loženje krutim gorivom, peletima, uljem ili plinom.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'EKO-CKB P 20kW',
-		price: 'Cijena: 11450kn/1519,68€',
+		price: '11450kn/1519,68€',
 		img: Boiler2,
 		numAcc: '1000+ računa',
 		features: ['Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'EKO-CKB P 25kW',
-		price: 'Cijena: 11950kn/1584,04€',
+		price: '11950kn/1584,04€',
 		img: Boiler2,
 		numAcc: '1000+ računa',
 		features: ['Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'EKO-CKB P 30kW',
-		price: 'Cijena: 12950kn/1718,76€',
+		price: '12950kn/1718,76€',
 		img: Boiler2,
 		numAcc: '1000+ računa',
 		features: ['Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'EKO-CKB P 35kW',
-		price: 'Cijena: 13600kn/1805,03€',
+		price: '13600kn/1805,03€',
 		img: Boiler2,
 		numAcc: '1000+ računa',
 		features: ['Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'EKO-CKB P 40kW',
-		price: 'Cijena: 13950kn/1851,48€',
+		price: '13950kn/1851,48€',
 		img: Boiler2,
 		numAcc: '1000+ računa',
 		features: ['Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'EKO-CKB P 50kW',
-		price: 'Cijena: 14980kn/1988,19€',
+		price: '14980kn/1988,19€',
 		img: Boiler2,
 		numAcc: '1000+ računa',
 		features: ['Posebnost im je ugrađeni inox bojler potrošne tople vode potopljen u kotlovskoj vodi.'],
+		features2: ['Lako održiv i jednostavan za implementaciju!']
 	},
 	{
 		title: 'SENKO C-20 INOX LUX 2920 Desni 25kW',
-		price: 'Cijena: 9850kn/1307,23€',
+		price: '9850kn/1307,23€',
 		img: Peć2,
 		numAcc: '1000+ računa',
 		features: [
@@ -288,7 +305,7 @@ export const pricingData3 = [
 	},
 	{
 		title: 'SENKO C-25 INOX LUX 2880 Desni 25kW',
-		price: 'Cijena: 10930kn/1450,66€',
+		price: '10930kn/1450,66€',
 		img: Peć2,
 		numAcc: '1000+ računa',
 		features: [
@@ -298,7 +315,7 @@ export const pricingData3 = [
 	},
 	{
 		title: 'SENKO C-30 INOX LUX 2930 Desni 25kW',
-		price: 'Cijena: 12600kn/1672,31€',
+		price: '12600kn/1672,31€',
 		img: Peć2,
 		numAcc: '1000+ računa',
 		features: [
@@ -308,7 +325,7 @@ export const pricingData3 = [
 	},
 	{
 		title: 'SENKO C-35 INOX LUX 2835 Desni 35kW',
-		price: 'Cijena: 12600kn/1672,31€',
+		price: '12600kn/1672,31€',
 		img: Peć2,
 		numAcc: '1000+ računa',
 		features: [

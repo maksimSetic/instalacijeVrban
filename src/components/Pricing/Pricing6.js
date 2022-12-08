@@ -20,7 +20,7 @@ function Pricing6() {
 		<IconContext.Provider value={{ color: '#a9b3c1', size: '1rem' }}>
 		<PricingSection id="pricing">
 				<PricingWrapper>
-				<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center", marginBottom: "20px"}}>Bakrene cijevi i podno grijanje</HeadingPricing>
+				<HeadingPricing style={{color: "#00917e", display: "flex", justifyContent: "center", marginBottom: "20px"}}>Podno grijanje</HeadingPricing>
 
 					<TextWrapper
 						mb="1.4rem"

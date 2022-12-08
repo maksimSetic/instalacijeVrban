@@ -17,11 +17,11 @@ const Blog = () => {
     <>
       <div>
         <h2
-          style={{ display: "inline-flex", color: "#00917e", fontSize: "50px" }}
+          style={{ display: "inline-flex", color: "#00917e", fontSize: "50px", textShadow: "2px 4px 3px rgba(0,0,0,0.3)"}}
         >
           VB
         </h2>
-        <h2 style={{ display: "inline-flex", fontSize: "45px" }}>log</h2>
+        <h2 style={{ display: "inline-flex", fontSize: "45px", textShadow: "2px 4px 3px rgba(0,0,0,0.3)" }}>log</h2>
       </div>
       <BlogContainer>
         <BlogContent>
