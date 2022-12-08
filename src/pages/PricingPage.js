@@ -7,6 +7,7 @@ import Pricing5 from '../components/Pricing/Pricing5';
 import Pricing6 from '../components/Pricing/Pricing6';
 import LoadingScreen from "react-loading-screen";
 import Carousel from 'react-material-ui-carousel';
+import BackToTop from '../components/BackToTop/BackToTop';
 import { GiBrainFreeze } from 'react-icons/gi';
 import { FaGripfire } from  'react-icons/fa';
 import { GiFireplace } from 'react-icons/gi';
@@ -14,11 +15,12 @@ import { SiCirrusci } from 'react-icons/si';
 import { BiBath } from 'react-icons/bi';
 import { GiPipes } from 'react-icons/gi'; 
 import { CgSmartHomeBoiler } from 'react-icons/cg'
-import BackToTop from '../components/BackToTop/BackToTop';
+
 
 const PricingPage = () => {
 
 	const [loading, setLoading] = useState(true);
+  const [activeChapter, setActiveChapter] = useState(0);
 
   useEffect(() => {
 	  setTimeout(() => setLoading(false), 800)
@@ -44,7 +46,7 @@ return <>
         logoSrc=""
         text=""
       >
-      </LoadingScreen> : <><Carousel IndicatorIcon={arrayOfIcons} autoPlay={false} swipe={false} navButtonsAlwaysInvisible={true} indicatorContainerProps={{
+      </LoadingScreen> : <><Carousel index={activeChapter} IndicatorIcon={arrayOfIcons} autoPlay={false} swipe={false} navButtonsAlwaysInvisible={true} indicatorContainerProps={{
       style: {
         position: "absolute",
         top: "200px",

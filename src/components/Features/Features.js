@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Container, Section } from '../../globalStyles';
 import {
 	FeatureText,
@@ -24,6 +24,11 @@ const Features = () => {
 		opacity: 1,
 	};
 
+	const [activeChapter, setActiveChapter] = useState(0);
+
+	const handleActiveChapter = () => {
+		setActiveChapter(1);
+	}
 
 	return (
 		<Section smPadding="50px 10px" position="relative" inverse id="about">
@@ -32,7 +37,7 @@ const Features = () => {
 					<FeatureTitle style={{color: "#00917e"}}>Katalog proizvoda</FeatureTitle>
 					<div class="h-divider">
     				<div class="shadow"></div>
-  					<div class="text"><i>Istražite najbolje ponude na tržištu s atraktivnim cijenama</i></div>
+  					<div class="text"><i>Istražite vrhunske proizvode na tržištu s atraktivnim cijenama i brzom dostavom</i></div>
        				</div>
 				</FeatureTextWrapper>
 		<Link style={{ color: "transparent"}} to="/pricing" >
@@ -44,6 +49,7 @@ const Features = () => {
 							animate={animate}
 							transition={{ duration: 0.5 + index * 0.1 }}
 							key={index}
+							onClick={handleActiveChapter}
 					
 						> 
 							<FeatureImageWrapper className={el.imgClass}>

@@ -4,9 +4,9 @@ export const heroOne = {
 	topLine: {
 		text: 'Započeto u 2012',
 	},
-	headline: "Savjetovanje i suradnja",
-	description: 'Dizajnirali smo solucije za vas',
-	buttonLabel: 'Saznaj više',
+	headline: "Brza i pouzdana dostava",
+	description: 'Gdje god bili smo osmislili dostavne solucije za vas',
+	buttonLabel: 'Naruči',
 	imgStart: 'start',
 	img: './assets/customerservicing.png',
 	linkTo: '/more',

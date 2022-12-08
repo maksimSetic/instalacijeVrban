@@ -36,7 +36,7 @@ const Dropdown = () => {
         <FcApproval style={{height: "50px", width: "50px"}} /></h2> 
         <div class="h-divider">
     <div class="shadow"></div>
-    <div class="text"><i>Ukoliko vam zatrebaju informacije ili pomoć nas slobodno kontaktirajte</i></div>
+    <div class="text"><i>Ukoliko vam zatrebaju informacije ili pomoć s integriranjem proizvoda nas slobodno kontaktirajte</i></div>
         </div>
       <DropdownContainer>
         <DropdownIcon>
