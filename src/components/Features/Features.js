@@ -10,7 +10,8 @@ import {
 	FeatureTextWrapper,
 } from './FeaturesStyles';
 import { featuresData } from '../../data/FeaturesData';
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import "./Divider2.scss"
 
 
 const Features = () => {
@@ -29,6 +30,10 @@ const Features = () => {
 			<Container>
 				<FeatureTextWrapper>
 					<FeatureTitle style={{color: "#00917e"}}>Katalog proizvoda</FeatureTitle>
+					<div class="h-divider">
+    				<div class="shadow"></div>
+  					<div class="text"><i>Istražite najbolje ponude na tržištu s atraktivnim cijenama</i></div>
+       				</div>
 				</FeatureTextWrapper>
 		<Link style={{ color: "transparent"}} to="/pricing" >
 				<FeatureWrapper>

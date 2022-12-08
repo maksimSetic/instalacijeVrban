@@ -13,6 +13,7 @@ import {
 } from "../Pricing/PricingStyles";
 import { pricingData7 } from "../../data/PricingData";
 import "../Pricing/PricingStyles.scss";
+import "./Divider1.scss";
 import { FaArrowCircleDown } from "react-icons/fa";
 import { FcApproval } from "react-icons/fc"
 
@@ -24,6 +25,7 @@ const Dropdown = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          textAlign: "center",
           marginBottom: "10px",
           fontSize: "40px",
           color: "#00917e",
@@ -31,7 +33,11 @@ const Dropdown = () => {
         }}
       >
         Izdvajamo iz ponude!
-        <FcApproval style={{ marginLeft: "10px", height: "50px", width: "50px"}} /></h2> 
+        <FcApproval style={{height: "50px", width: "50px"}} /></h2> 
+        <div class="h-divider">
+    <div class="shadow"></div>
+    <div class="text"><i>Ukoliko vam zatrebaju informacije ili pomoć nas slobodno kontaktirajte</i></div>
+        </div>
       <DropdownContainer>
         <DropdownIcon>
           <FaArrowCircleDown style={{ color: "white" }} />

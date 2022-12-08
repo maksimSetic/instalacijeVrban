@@ -8,7 +8,6 @@ export const FeatureTitle = styled.h2`
 	margin: auto;
 	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 	@media screen and (max-width: 768px) {
-		margin-bottom: -30px;
 	}
 	
 `;
