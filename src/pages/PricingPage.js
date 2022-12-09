@@ -46,7 +46,7 @@ return <>
         logoSrc=""
         text=""
       >
-      </LoadingScreen> : <><Carousel index={activeChapter} IndicatorIcon={arrayOfIcons} autoPlay={false} swipe={false} navButtonsAlwaysVisible={true} indicatorContainerProps={{
+      </LoadingScreen> : <><Carousel index={activeChapter} IndicatorIcon={arrayOfIcons} autoPlay={false} swipe={false} indicatorContainerProps={{
       style: {
         position: "absolute",
         top: "200px",
