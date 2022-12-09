@@ -34,13 +34,12 @@ const Features = () => {
 		<Section smPadding="50px 10px" position="relative" inverse id="about">
 			<Container>
 				<FeatureTextWrapper>
-					<FeatureTitle style={{color: "#00917e"}}>Katalog proizvoda</FeatureTitle>
+				<Link style={{ textDecoration: "none" }} to="/pricing" ><FeatureTitle style={{color: "#00917e"}}>Katalog proizvoda</FeatureTitle></Link>
 					<div class="h-divider">
     				<div class="shadow"></div>
   					<div class="text"><i>Istražite vrhunske proizvode na tržištu s atraktivnim cijenama i brzom dostavom</i></div>
        				</div>
 				</FeatureTextWrapper>
-		<Link style={{ color: "transparent"}} to="/pricing" >
 				<FeatureWrapper>
 					{featuresData.map((el, index) => (
 							
@@ -61,7 +60,7 @@ const Features = () => {
 				
 					))}
 				</FeatureWrapper>
-				</Link>
+				<Link style={{ textDecoration: "none" }} to="/pricing" ><FeatureTitle style={{color: "#00917e", textAlign: "center", fontSize: "40px", marginTop: "35px"}}>- Istraži ponude -</FeatureTitle></Link>
 			</Container>
 		</Section>
 	);

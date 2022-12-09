@@ -28,12 +28,12 @@ const PricingPage = () => {
 
 
   const arrayOfIcons = [
-  <GiBrainFreeze style={{ height: "45px", width: "45px"}}/>,
-  <GiFireplace style={{ height: "45px", width: "45px"}}/>,
-  <FaGripfire style={{ height: "45px", width: "45px"}}/>,
-  <CgSmartHomeBoiler style={{ height: "40px", width: "40px", marginLeft: "-10px"}}/>,
-  <SiCirrusci style={{ height: "35px", width: "35px",  marginLeft: "5px"}}/>,
-  <GiPipes style={{ height: "40px", width: "40px", marginLeft: "5px"}}/>,
+  <GiBrainFreeze style={{ height: "50px", width: "50px"}}/>,
+  <GiFireplace style={{ height: "50px", width: "50px"}}/>,
+  <FaGripfire style={{ height: "50px", width: "50px"}}/>,
+  <CgSmartHomeBoiler style={{ height: "45px", width: "45px", marginLeft: "-10px"}}/>,
+  <SiCirrusci style={{ height: "40px", width: "40px",  marginLeft: "5px"}}/>,
+  <GiPipes style={{ height: "50px", width: "50px", marginLeft: "5px"}}/>,
  ]; 
 
 
@@ -46,14 +46,15 @@ return <>
         logoSrc=""
         text=""
       >
-      </LoadingScreen> : <><Carousel index={activeChapter} IndicatorIcon={arrayOfIcons} autoPlay={false} swipe={false} navButtonsAlwaysInvisible={true} indicatorContainerProps={{
+      </LoadingScreen> : <><Carousel index={activeChapter} IndicatorIcon={arrayOfIcons} autoPlay={false} swipe={false} navButtonsAlwaysVisible={true} indicatorContainerProps={{
       style: {
         position: "absolute",
         top: "200px",
         zIndex: "2",
         marginTop: "20px"
-      }
-    }}>
+      }  
+    }}  
+>
       <Pricing /><Pricing2 /><Pricing3 /><Pricing4 /><Pricing5 /><Pricing6 />
     </Carousel><BackToTop/></>}
 	 </>
