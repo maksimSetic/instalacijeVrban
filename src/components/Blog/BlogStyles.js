@@ -74,12 +74,12 @@ border-radius: 1.5rem;
 export const CardTitle = styled.h3`
 color: #22215B;
 padding: 1rem 0;
-font-size: 1.5rem;
+font-size: 1.6rem;
 
 `;
 
 export const CardTime = styled.span`
-font-size: 1rem;
+font-size: 1.3rem;
 color: #22215B;
 
 `;
@@ -94,7 +94,8 @@ font-size: 1rem;
 export const CardDescription = styled.div`
 padding: 1rem 0;
 color: #22215B80;
-font-size: 1rem;
+font-weight: 600;
+font-size: 1.1rem;
 `;
 
 export const CardButton = styled.button`

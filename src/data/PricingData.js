@@ -509,44 +509,52 @@ export const pricingData6 = [
 
 export const pricingData7 = [
 	{
-		title: 'CU CIJEVI',
-		img: BakreneCijevi,
-		price: 'Cijena po količini m',
+		title: 'VAIL 1-045 (4,6/5,2kW)',
+		img: Klima2,
+		price: '5499,99kn/730.94€',
 		numAcc: '50-100 računa',
-		features: ['x15 - 33kn/4,38€', ],
-		features2: ['x18 - 44,50kn/5,91€'],
-		features3: ['x22 - 63,80kn/8,47€'],
-		features4: ['x28 - 81,20kn/10,78€'],
-	  
-	}, 
-
+		features: [
+		'VAIL 1-045 WNO VANJSKA JEDINICA',
+	],
+	features2: 	'VAIL 1-045 WNI UNUTARNJA JEDINICA',
+	features3: 	'5499,99kn/730.94€'
+	},
 	{
-		title: 'CIJEV ALU-PEX 16*2',
-		img: IzoliranaCijev1,
-		price: '$7.99',
+		title: 'Tesy Kombi bojleri',
+		img: TesyBoiler,
 		numAcc: '50-100 računa',
-		features4: ['5,80kn/0,77€'],
-		features: ['Comisa izolacija'],
-		features2: ['50M kolut'],
-		features3: ['Povećana otpornost na temperature'],},
+		features: ['80L Lijevi i Desni - 1570,00kn/208,37€'],
+		features2: ['100L Lijevi i Desni  - 1700,00kn/225,63€'],
+		features3: ['120L Lijevi i Desni  - 1930,00kn/256,16€'],
+		
+	},
 	{
-		title: 'CIJEV ALU-PEX 20*2',
-		img: IzoliranaCijev1,
-		price: '$7.99',
+		title: 'VUW Pro Vaillant',
+		img: Peć,
 		numAcc: '50-100 računa',
-		features4: ['5,80kn/0,77€'],
-		features: ['Comisa izolacija'],
-		features2: ['50M kolut'],
-		features3: ['Povećana otpornost na temperature'],},
+		features: ['Vaillant Ventil Plinski 3/4 Ravni'],
+		features2: ['Vaillant Dimovod 60/100 KOND.UR'],
+		features3: ['Vaillant VRT 15 TERMOSTAT 220V'],
+		price: '9735,00kn/1292,06€',
+	},
 	{
-		title: 'CIJEV ALU-PEX 26*3',
-		img: IzoliranaCijev1,
-		price: '$7.99',
+		title: 'RAD Aqua',
+		img: RadijatorAq,
+		price: 'Cijena ovisna o W',
 		numAcc: '50-100 računa',
-		features4: ['5,80kn/0,77€'],
-		features: ['Comisa izolacija'],
-		features2: ['50M kolut'],
-		features3: ['Povećana otpornost na temperature'],},
+		features: ['Aqua RAD 575W-917W'],
+		features3: ['Premium linija!'],
+		features2: ['Ravni -  1200x500 - 1800x600'],}, 
+	{
+		title: 'RAD Trend',
+		img: RadijatorTr,
+		price: 'Cijena ovisna o W',
+		numAcc: '50-100 računa',
+		features: ['Trend RAD 752W-1812W'],
+		features3: ['Premium linija!'],
+		features2: ['Ravni i Zaobljeni -  730x450 - 1850x600'],}, 
+		
+		
 	{
 		title: 'HERZ PE-ERT 16*2',
 		img: IzoliranaCijev2,
@@ -558,6 +566,15 @@ export const pricingData7 = [
 		features3: ['Povećana otpornost na temperature'],
 
 	},
+	{
+		title: 'Lipovica RAD Orion ',
+		price: 'Cijena ovisna o W',
+		img: RadijatorOr,
+		numAcc: '1000+ računa',
+		features: ['RAD Orion 350/95-600/95 (113W-185W)'],
+		features2: ['Odlična budžet opcija'],
+		features3: ['Premium linija!'],
+	},
 
 	{
 		title: 'HERZ Combitop 30-2 ',
@@ -568,13 +585,4 @@ export const pricingData7 = [
 		features3: ['1400x800 h=51mm'],
 		features2: ['(PAK=6,72 m2, 6kom)'],
 		features: ['RASTER'],},
-	{
-		title: 'HERZ Combitop ND 11',
-		img: IzoliranaCijev3,
-		price: '$7.99',
-		numAcc: '50-100 računa',
-		features4: ['5,80kn/0,77€'],
-		features: ['RASTER'],
-		features2: ['1400x800 h=31mm'],
-		features3: ['(PAK=14,56 m2, 13kom)'],},
 ];

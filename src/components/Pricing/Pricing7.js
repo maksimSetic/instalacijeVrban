@@ -44,7 +44,7 @@ function Pricing7() {
 								 <PricingCardFeature>{card.features}</PricingCardFeature>
 								 <PricingCardFeature>{card.features2}</PricingCardFeature>
 								 <PricingCardFeature>{card.features3}</PricingCardFeature>
-								 <PricingCardCost class="date">{card.features4}</PricingCardCost>
+								 <PricingCardCost class="date">{card.price}</PricingCardCost>
 							   </div>
 							 </div>
 						
