@@ -60,7 +60,7 @@ const Features = () => {
 				
 					))}
 				</FeatureWrapper>
-				<Link style={{ textDecoration: "none" }} to="/pricing" ><FeatureTitle style={{color: "#00917e", textAlign: "center", fontSize: "40px", marginTop: "35px"}}>- Istraži ponude -</FeatureTitle></Link>
+				<Link style={{ textDecoration: "none" }} to="/pricing" ><FeatureTitle style={{color: "#00917e", textAlign: "center", fontSize: "40px", marginTop: "35px"}}>Istraži ponude</FeatureTitle></Link>
 			</Container>
 		</Section>
 	);
