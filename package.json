@@ -1,6 +1,7 @@
 {
 	"name": "react-finance-app",
 	"version": "0.1.0",
+	"build_staging": "PUBLIC_URL=https://instalacijevrban.com/ react-scripts build",
 	"private": true,
 	"dependencies": {
 		"@emailjs/browser": "^3.6.2",
@@ -21,12 +22,14 @@
 		"react-router-dom": "^5.2.0",
 		"react-scripts": "^4.0.3",
 		"react-slick": "^0.28.1",
+		"react-snap": "^1.23.0",
 		"styled-components": "^5.1.1",
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
+		"postbuild": "react-snap",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
